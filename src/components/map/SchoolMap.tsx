@@ -12,9 +12,9 @@ declare global {
   }
 }
 
-// 김제시 중심 좌표 (모든 학교가 보이도록 조정)
-const GIMJE_CENTER = { lat: 35.815, lng: 126.88 };
-const DEFAULT_ZOOM = 9; // 김제시 전체가 보이는 줌 레벨
+// 김제시 중심 좌표 (35.8도, 126.88도 = 전북 김제시)
+const GIMJE_CENTER = { lat: 35.80, lng: 126.88 };
+const DEFAULT_ZOOM = 10; // 김제시 전체가 보이는 줌 레벨 (1=가까이, 14=멀리)
 
 // 학교 이름에서 "초등학교" 제거
 const getShortName = (name: string): string => {
@@ -446,9 +446,14 @@ export default function SchoolMap() {
     <div className="relative w-full h-full">
       <div ref={mapRef} className="w-full h-full" />
 
-      {/* 지도 컨트롤 */}
+      {/* 지도 컨트롤 - 리셋 버튼 누르면 김제시 전체 보기 */}
       <MapControls
-        onReset={() => panTo(GIMJE_CENTER.lat, GIMJE_CENTER.lng, DEFAULT_ZOOM)}
+        onReset={() => {
+          if (map) {
+            map.setCenter(new window.kakao.maps.LatLng(35.80, 126.88));
+            map.setLevel(10);
+          }
+        }}
         onZoomIn={() => map?.setLevel(map.getLevel() - 1)}
         onZoomOut={() => map?.setLevel(map.getLevel() + 1)}
       />
