@@ -181,6 +181,21 @@ export default function SchoolMap() {
     }
   }, [map]);
 
+  // 초기 로드 시 김제 지역으로 이동 (학교 데이터 기반)
+  useEffect(() => {
+    if (!map || !isMapLoaded || filteredSchools.length === 0) return;
+    if (initialBoundsSet.current) return;
+
+    // 모든 학교 좌표로 bounds 계산
+    const bounds = new window.kakao.maps.LatLngBounds();
+    filteredSchools.forEach((school) => {
+      bounds.extend(new window.kakao.maps.LatLng(school.latitude, school.longitude));
+    });
+
+    map.setBounds(bounds);
+    initialBoundsSet.current = true;
+  }, [map, isMapLoaded, filteredSchools]);
+
   // 마커 생성 및 업데이트
   useEffect(() => {
     if (!map || !isMapLoaded || filteredSchools.length === 0) return;
@@ -189,14 +204,12 @@ export default function SchoolMap() {
     overlays.forEach((overlay) => overlay.setMap(null));
 
     const newOverlays: any[] = [];
-    const bounds = new window.kakao.maps.LatLngBounds();
 
     filteredSchools.forEach((school) => {
       const position = new window.kakao.maps.LatLng(
         school.latitude,
         school.longitude
       );
-      bounds.extend(position);
 
       const markerColor = getMarkerColor(school);
       const shortName = getShortName(school.name);
@@ -267,12 +280,6 @@ export default function SchoolMap() {
       customOverlay.setMap(map);
       newOverlays.push(customOverlay);
     });
-
-    // 첫 로드 시에만 모든 학교가 보이도록 범위 조정
-    if (!initialBoundsSet.current && filteredSchools.length > 0) {
-      map.setBounds(bounds);
-      initialBoundsSet.current = true;
-    }
 
     setOverlays(newOverlays);
   }, [map, filteredSchools, isMapLoaded]);
