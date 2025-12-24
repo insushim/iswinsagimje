@@ -3,316 +3,14 @@
     "region": "전북특별자치도 김제시",
     "educationOffice": "전북특별자치도김제교육지원청",
     "educationOfficeCode": "P10",
-    "lastUpdated": "2024-12-24",
-    "source": "NEIS, 학교알리미, 김제교육지원청"
+    "lastUpdated": "2025-01-01",
+    "source": "NEIS, 학교알리미, 김제교육지원청",
+    "baseYear": 2025
   },
   "schools": [
     {
-      "id": "P10-7631002",
-      "name": "공덕초등학교",
-      "address": "전북특별자치도 김제시 공덕면 공덕로 248",
-      "phone": "063-540-6600",
-      "latitude": 35.89465475,
-      "longitude": 126.9116039,
-      "status": "operating",
-      "totalStudents": 45,
-      "maleStudents": 24,
-      "femaleStudents": 21,
-      "classCount": 6,
-      "totalTeachers": 9,
-      "teachersExcludingAdmin": 7,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 2,
-      "vacancies": 1,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 6.4,
-      "averageClassSize": 7.5,
-      "riskLevel": "medium",
-      "riskFactors": [
-        "소규모 학교",
-        "교감 공석"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 52,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 48,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 45,
-          "teachers": 9,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1934-07-16"
-    },
-    {
-      "id": "P10-7631003",
-      "name": "광활초등학교",
-      "address": "전북특별자치도 김제시 광활면 광활11길 37",
-      "phone": "063-540-6700",
-      "latitude": 35.8339488,
-      "longitude": 126.7403601,
-      "status": "operating",
-      "totalStudents": 35,
-      "maleStudents": 18,
-      "femaleStudents": 17,
-      "classCount": 6,
-      "totalTeachers": 8,
-      "teachersExcludingAdmin": 6,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 0,
-      "teachersOver5Years": 1,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 5.8,
-      "averageClassSize": 5.8,
-      "riskLevel": "high",
-      "riskFactors": [
-        "초소규모 학교",
-        "교감 공석",
-        "학생수 감소 추세"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 42,
-          "teachers": 8,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 38,
-          "teachers": 8,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 35,
-          "teachers": 8,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1944-04-19"
-    },
-    {
-      "id": "P10-7631004",
-      "name": "금구초등학교",
-      "address": "전북특별자치도 김제시 금구면 금구로 40",
-      "phone": "063-540-6800",
-      "latitude": 35.7744982,
-      "longitude": 127.0125018,
-      "status": "operating",
-      "totalStudents": 55,
-      "maleStudents": 28,
-      "femaleStudents": 27,
-      "classCount": 6,
-      "totalTeachers": 10,
-      "teachersExcludingAdmin": 8,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 3
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "estimatedTransferOut": 2,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 3,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
-      "hasGym": true,
-      "hasPool": false,
-      "studentTeacherRatio": 6.9,
-      "averageClassSize": 9.2,
-      "riskLevel": "medium",
-      "riskFactors": [
-        "소규모 학교"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 62,
-          "teachers": 10,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 58,
-          "teachers": 10,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 55,
-          "teachers": 10,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1912-02-16"
-    },
-    {
-      "id": "P10-7631005",
-      "name": "금산초등학교",
-      "address": "전북특별자치도 김제시 금산면 모악로 383",
-      "phone": "063-540-6900",
-      "latitude": 35.72072233,
-      "longitude": 127.0321781,
-      "status": "operating",
-      "totalStudents": 40,
-      "maleStudents": 21,
-      "femaleStudents": 19,
-      "classCount": 6,
-      "totalTeachers": 9,
-      "teachersExcludingAdmin": 7,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 2,
-      "vacancies": 1,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 5.7,
-      "averageClassSize": 6.7,
-      "riskLevel": "high",
-      "riskFactors": [
-        "초소규모 학교",
-        "교감 공석",
-        "결원 1명"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 48,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 44,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 40,
-          "teachers": 9,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1944-11-01"
-    },
-    {
-      "id": "P10-7631006",
-      "name": "김제초등학교",
-      "address": "전북특별자치도 김제시 서낭당길 31",
-      "phone": "063-540-7000",
-      "homepage": "http://www.gimje.es.kr",
-      "latitude": 35.80175343,
-      "longitude": 126.887372,
-      "status": "operating",
-      "totalStudents": 280,
-      "maleStudents": 145,
-      "femaleStudents": 135,
-      "classCount": 14,
-      "totalTeachers": 26,
-      "teachersExcludingAdmin": 24,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "estimatedTransferOut": 3,
-      "teachersNearRetirement": 2,
-      "teachersOver5Years": 5,
-      "vacancies": 0,
-      "schoolType": "urban",
-      "isSmallSchool": false,
-      "specialPrograms": [
-        "늘봄학교",
-        "방과후학교"
-      ],
-      "hasGym": true,
-      "hasPool": false,
-      "studentTeacherRatio": 11.7,
-      "averageClassSize": 20,
-      "riskLevel": "low",
-      "riskFactors": [],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 295,
-          "teachers": 26,
-          "classes": 14
-        },
-        {
-          "year": 2023,
-          "students": 288,
-          "teachers": 26,
-          "classes": 14
-        },
-        {
-          "year": 2024,
-          "students": 280,
-          "teachers": 26,
-          "classes": 14
-        }
-      ],
-      "foundedDate": "1945-10-04"
-    },
-    {
-      "id": "P10-7631007",
-      "name": "검산초등학교",
+      "id": "P10-7631001",
+      "name": "김제검산초등학교",
       "address": "전북특별자치도 김제시 도작로 122",
       "phone": "063-546-0043",
       "homepage": "http://www.geomsan.es.kr",
@@ -320,180 +18,35 @@
       "latitude": 35.80626934,
       "longitude": 126.8999237,
       "status": "operating",
-      "totalStudents": 420,
-      "maleStudents": 215,
-      "femaleStudents": 205,
-      "classCount": 20,
-      "totalTeachers": 35,
-      "teachersExcludingAdmin": 33,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 3
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "estimatedTransferOut": 4,
+      "totalStudents": 520,
+      "maleStudents": 268,
+      "femaleStudents": 252,
+      "classCount": 24,
+      "totalTeachers": 42,
+      "teachersExcludingAdmin": 40,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "estimatedTransferOut": 5,
       "teachersNearRetirement": 3,
-      "teachersOver5Years": 8,
+      "teachersOver5Years": 10,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": [
-        "늘봄학교",
-        "방과후학교",
-        "SW교육"
-      ],
+      "specialPrograms": ["늘봄학교", "방과후학교", "SW교육", "영재학급"],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 12.7,
-      "averageClassSize": 21,
+      "studentTeacherRatio": 13.0,
+      "averageClassSize": 21.7,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        {
-          "year": 2022,
-          "students": 435,
-          "teachers": 35,
-          "classes": 20
-        },
-        {
-          "year": 2023,
-          "students": 428,
-          "teachers": 35,
-          "classes": 20
-        },
-        {
-          "year": 2024,
-          "students": 420,
-          "teachers": 35,
-          "classes": 20
-        }
+        { "year": 2023, "students": 545, "teachers": 42, "classes": 24 },
+        { "year": 2024, "students": 532, "teachers": 42, "classes": 24 },
+        { "year": 2025, "students": 520, "teachers": 42, "classes": 24 }
       ]
     },
     {
-      "id": "P10-7631008",
-      "name": "김제동초등학교",
-      "address": "전북특별자치도 김제시 중앙13길 18",
-      "phone": "063-544-8362",
-      "homepage": "http://www.kjdong.es.kr",
-      "foundedDate": "1950-02-06",
-      "latitude": 35.79479281,
-      "longitude": 126.9009833,
-      "status": "operating",
-      "totalStudents": 180,
-      "maleStudents": 92,
-      "femaleStudents": 88,
-      "classCount": 10,
-      "totalTeachers": 18,
-      "teachersExcludingAdmin": 16,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "estimatedTransferOut": 2,
-      "teachersNearRetirement": 2,
-      "teachersOver5Years": 4,
-      "vacancies": 0,
-      "schoolType": "urban",
-      "isSmallSchool": false,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
-      "hasGym": true,
-      "hasPool": false,
-      "studentTeacherRatio": 11.3,
-      "averageClassSize": 18,
-      "riskLevel": "low",
-      "riskFactors": [],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 195,
-          "teachers": 18,
-          "classes": 10
-        },
-        {
-          "year": 2023,
-          "students": 188,
-          "teachers": 18,
-          "classes": 10
-        },
-        {
-          "year": 2024,
-          "students": 180,
-          "teachers": 18,
-          "classes": 10
-        }
-      ]
-    },
-    {
-      "id": "P10-7631009",
-      "name": "김제북초등학교",
-      "address": "전북특별자치도 김제시 콩쥐팥쥐로 306-56",
-      "phone": "063-540-7100",
-      "homepage": "http://www.kjbuk.es.kr",
-      "latitude": 35.81496393,
-      "longitude": 126.9338485,
-      "status": "operating",
-      "totalStudents": 150,
-      "maleStudents": 78,
-      "femaleStudents": 72,
-      "classCount": 8,
-      "totalTeachers": 15,
-      "teachersExcludingAdmin": 13,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "estimatedTransferOut": 2,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 3,
-      "vacancies": 0,
-      "schoolType": "urban",
-      "isSmallSchool": false,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
-      "hasGym": true,
-      "hasPool": false,
-      "studentTeacherRatio": 11.5,
-      "averageClassSize": 18.8,
-      "riskLevel": "low",
-      "riskFactors": [],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 165,
-          "teachers": 15,
-          "classes": 8
-        },
-        {
-          "year": 2023,
-          "students": 158,
-          "teachers": 15,
-          "classes": 8
-        },
-        {
-          "year": 2024,
-          "students": 150,
-          "teachers": 15,
-          "classes": 8
-        }
-      ],
-      "foundedDate": "1966-03-26"
-    },
-    {
-      "id": "P10-7631010",
+      "id": "P10-7631002",
       "name": "김제중앙초등학교",
       "address": "전북특별자치도 김제시 동서로 193",
       "phone": "063-546-4851",
@@ -508,25 +61,15 @@
       "classCount": 15,
       "totalTeachers": 31,
       "teachersExcludingAdmin": 29,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
       "estimatedTransferOut": 3,
       "teachersNearRetirement": 2,
       "teachersOver5Years": 6,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": [
-        "IB 후보학교",
-        "늘봄학교",
-        "방과후학교"
-      ],
+      "specialPrograms": ["IB 후보학교", "늘봄학교", "방과후학교"],
       "hasGym": true,
       "hasPool": false,
       "studentTeacherRatio": 10.5,
@@ -534,152 +77,309 @@
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        {
-          "year": 2022,
-          "students": 320,
-          "teachers": 31,
-          "classes": 15
-        },
-        {
-          "year": 2023,
-          "students": 312,
-          "teachers": 31,
-          "classes": 15
-        },
-        {
-          "year": 2024,
-          "students": 305,
-          "teachers": 31,
-          "classes": 15
-        }
-      ],
-      "notes": "IB 프로그램 설명회 진행 중"
+        { "year": 2023, "students": 320, "teachers": 31, "classes": 15 },
+        { "year": 2024, "students": 312, "teachers": 31, "classes": 15 },
+        { "year": 2025, "students": 305, "teachers": 31, "classes": 15 }
+      ]
+    },
+    {
+      "id": "P10-7631003",
+      "name": "김제초등학교",
+      "address": "전북특별자치도 김제시 서낭당길 31",
+      "phone": "063-540-7000",
+      "homepage": "http://www.gimje.es.kr",
+      "foundedDate": "1945-10-04",
+      "latitude": 35.80175343,
+      "longitude": 126.887372,
+      "status": "operating",
+      "totalStudents": 280,
+      "maleStudents": 145,
+      "femaleStudents": 135,
+      "classCount": 14,
+      "totalTeachers": 26,
+      "teachersExcludingAdmin": 24,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "estimatedTransferOut": 3,
+      "teachersNearRetirement": 2,
+      "teachersOver5Years": 5,
+      "vacancies": 0,
+      "schoolType": "urban",
+      "isSmallSchool": false,
+      "specialPrograms": ["늘봄학교", "방과후학교"],
+      "hasGym": true,
+      "hasPool": false,
+      "studentTeacherRatio": 11.7,
+      "averageClassSize": 20,
+      "riskLevel": "low",
+      "riskFactors": [],
+      "yearlyData": [
+        { "year": 2023, "students": 295, "teachers": 26, "classes": 14 },
+        { "year": 2024, "students": 288, "teachers": 26, "classes": 14 },
+        { "year": 2025, "students": 280, "teachers": 26, "classes": 14 }
+      ]
+    },
+    {
+      "id": "P10-7631004",
+      "name": "김제동초등학교",
+      "address": "전북특별자치도 김제시 중앙13길 18",
+      "phone": "063-544-8362",
+      "homepage": "http://www.kjdong.es.kr",
+      "foundedDate": "1950-02-06",
+      "latitude": 35.79479281,
+      "longitude": 126.9009833,
+      "status": "operating",
+      "totalStudents": 180,
+      "maleStudents": 92,
+      "femaleStudents": 88,
+      "classCount": 10,
+      "totalTeachers": 18,
+      "teachersExcludingAdmin": 16,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "estimatedTransferOut": 2,
+      "teachersNearRetirement": 2,
+      "teachersOver5Years": 4,
+      "vacancies": 0,
+      "schoolType": "urban",
+      "isSmallSchool": false,
+      "specialPrograms": ["늘봄학교"],
+      "hasGym": true,
+      "hasPool": false,
+      "studentTeacherRatio": 11.3,
+      "averageClassSize": 18,
+      "riskLevel": "low",
+      "riskFactors": [],
+      "yearlyData": [
+        { "year": 2023, "students": 195, "teachers": 18, "classes": 10 },
+        { "year": 2024, "students": 188, "teachers": 18, "classes": 10 },
+        { "year": 2025, "students": 180, "teachers": 18, "classes": 10 }
+      ]
+    },
+    {
+      "id": "P10-7631005",
+      "name": "김제북초등학교",
+      "address": "전북특별자치도 김제시 콩쥐팥쥐로 306-56",
+      "phone": "063-540-7100",
+      "homepage": "http://www.kjbuk.es.kr",
+      "foundedDate": "1966-03-26",
+      "latitude": 35.81496393,
+      "longitude": 126.9338485,
+      "status": "operating",
+      "totalStudents": 150,
+      "maleStudents": 78,
+      "femaleStudents": 72,
+      "classCount": 8,
+      "totalTeachers": 15,
+      "teachersExcludingAdmin": 13,
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 2 },
+      "estimatedTransferOut": 2,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 3,
+      "vacancies": 0,
+      "schoolType": "urban",
+      "isSmallSchool": false,
+      "specialPrograms": ["늘봄학교"],
+      "hasGym": true,
+      "hasPool": false,
+      "studentTeacherRatio": 11.5,
+      "averageClassSize": 18.8,
+      "riskLevel": "low",
+      "riskFactors": [],
+      "yearlyData": [
+        { "year": 2023, "students": 165, "teachers": 15, "classes": 8 },
+        { "year": 2024, "students": 158, "teachers": 15, "classes": 8 },
+        { "year": 2025, "students": 150, "teachers": 15, "classes": 8 }
+      ]
+    },
+    {
+      "id": "P10-7631006",
+      "name": "월촌초등학교",
+      "address": "전북특별자치도 김제시 입석7길 119",
+      "phone": "063-540-7150",
+      "foundedDate": "1924-05-18",
+      "latitude": 35.7891504,
+      "longitude": 126.8681157,
+      "status": "operating",
+      "totalStudents": 125,
+      "maleStudents": 65,
+      "femaleStudents": 60,
+      "classCount": 7,
+      "totalTeachers": 14,
+      "teachersExcludingAdmin": 12,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "estimatedTransferOut": 2,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 3,
+      "vacancies": 0,
+      "schoolType": "urban",
+      "isSmallSchool": false,
+      "specialPrograms": ["늘봄학교"],
+      "hasGym": true,
+      "hasPool": false,
+      "studentTeacherRatio": 10.4,
+      "averageClassSize": 17.9,
+      "riskLevel": "low",
+      "riskFactors": [],
+      "yearlyData": [
+        { "year": 2023, "students": 140, "teachers": 14, "classes": 7 },
+        { "year": 2024, "students": 132, "teachers": 14, "classes": 7 },
+        { "year": 2025, "students": 125, "teachers": 14, "classes": 7 }
+      ]
+    },
+    {
+      "id": "P10-7631007",
+      "name": "월성초등학교",
+      "address": "전북특별자치도 김제시 봉황로 1020",
+      "phone": "063-540-7160",
+      "foundedDate": "1948-06-03",
+      "latitude": 35.76016231,
+      "longitude": 126.910175,
+      "status": "operating",
+      "totalStudents": 85,
+      "maleStudents": 44,
+      "femaleStudents": 41,
+      "classCount": 6,
+      "totalTeachers": 11,
+      "teachersExcludingAdmin": 9,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 2,
+      "vacancies": 0,
+      "schoolType": "urban",
+      "isSmallSchool": false,
+      "specialPrograms": ["늘봄학교"],
+      "hasGym": true,
+      "hasPool": false,
+      "studentTeacherRatio": 9.4,
+      "averageClassSize": 14.2,
+      "riskLevel": "low",
+      "riskFactors": [],
+      "yearlyData": [
+        { "year": 2023, "students": 98, "teachers": 11, "classes": 6 },
+        { "year": 2024, "students": 92, "teachers": 11, "classes": 6 },
+        { "year": 2025, "students": 85, "teachers": 11, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631008",
+      "name": "비룡초등학교",
+      "address": "전북특별자치도 김제시 용지면 금백로 845-7",
+      "phone": "063-540-8000",
+      "foundedDate": "1963-05-10",
+      "latitude": 35.84412437,
+      "longitude": 126.9898157,
+      "status": "operating",
+      "totalStudents": 120,
+      "maleStudents": 62,
+      "femaleStudents": 58,
+      "classCount": 7,
+      "totalTeachers": 14,
+      "teachersExcludingAdmin": 12,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "estimatedTransferOut": 2,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 3,
+      "vacancies": 0,
+      "schoolType": "urban",
+      "isSmallSchool": false,
+      "specialPrograms": ["늘봄학교"],
+      "hasGym": true,
+      "hasPool": false,
+      "studentTeacherRatio": 10,
+      "averageClassSize": 17.1,
+      "riskLevel": "low",
+      "riskFactors": [],
+      "yearlyData": [
+        { "year": 2023, "students": 135, "teachers": 14, "classes": 7 },
+        { "year": 2024, "students": 128, "teachers": 14, "classes": 7 },
+        { "year": 2025, "students": 120, "teachers": 14, "classes": 7 }
+      ]
+    },
+    {
+      "id": "P10-7631009",
+      "name": "종정초등학교",
+      "address": "전북특별자치도 김제시 백산면 종정1길 143",
+      "phone": "063-540-8600",
+      "homepage": "http://www.jongjeong.es.kr",
+      "foundedDate": "1939-05-09",
+      "latitude": 35.85217451,
+      "longitude": 126.9053671,
+      "status": "operating",
+      "totalStudents": 110,
+      "maleStudents": 57,
+      "femaleStudents": 53,
+      "classCount": 7,
+      "totalTeachers": 13,
+      "teachersExcludingAdmin": 11,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "estimatedTransferOut": 2,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 3,
+      "vacancies": 0,
+      "schoolType": "urban",
+      "isSmallSchool": false,
+      "specialPrograms": ["늘봄학교"],
+      "hasGym": true,
+      "hasPool": false,
+      "studentTeacherRatio": 10,
+      "averageClassSize": 15.7,
+      "riskLevel": "low",
+      "riskFactors": [],
+      "yearlyData": [
+        { "year": 2023, "students": 125, "teachers": 13, "classes": 7 },
+        { "year": 2024, "students": 118, "teachers": 13, "classes": 7 },
+        { "year": 2025, "students": 110, "teachers": 13, "classes": 7 }
+      ]
+    },
+    {
+      "id": "P10-7631010",
+      "name": "원평초등학교",
+      "address": "전북특별자치도 김제시 금산면 원평로 101",
+      "phone": "063-540-8400",
+      "foundedDate": "1915-10-02",
+      "latitude": 35.71738385,
+      "longitude": 126.9944178,
+      "status": "operating",
+      "totalStudents": 95,
+      "maleStudents": 49,
+      "femaleStudents": 46,
+      "classCount": 6,
+      "totalTeachers": 12,
+      "teachersExcludingAdmin": 10,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 2,
+      "vacancies": 0,
+      "schoolType": "urban",
+      "isSmallSchool": false,
+      "specialPrograms": ["늘봄학교"],
+      "hasGym": true,
+      "hasPool": false,
+      "studentTeacherRatio": 9.5,
+      "averageClassSize": 15.8,
+      "riskLevel": "low",
+      "riskFactors": [],
+      "yearlyData": [
+        { "year": 2023, "students": 105, "teachers": 12, "classes": 6 },
+        { "year": 2024, "students": 100, "teachers": 12, "classes": 6 },
+        { "year": 2025, "students": 95, "teachers": 12, "classes": 6 }
+      ]
     },
     {
       "id": "P10-7631011",
-      "name": "난산초등학교",
-      "address": "전북특별자치도 김제시 백구면 금백로 1213",
-      "phone": "063-540-7200",
-      "latitude": 35.8774561,
-      "longitude": 126.9958992,
-      "status": "operating",
-      "totalStudents": 25,
-      "maleStudents": 13,
-      "femaleStudents": 12,
-      "classCount": 6,
-      "totalTeachers": 7,
-      "teachersExcludingAdmin": 5,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 1,
-      "vacancies": 1,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 5,
-      "averageClassSize": 4.2,
-      "riskLevel": "high",
-      "riskFactors": [
-        "초소규모 학교",
-        "교감 공석",
-        "결원 1명",
-        "폐교 위험"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 32,
-          "teachers": 7,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 28,
-          "teachers": 7,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 25,
-          "teachers": 7,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1941-04-18"
-    },
-    {
-      "id": "P10-7631012",
-      "name": "남양초등학교",
-      "address": "전북특별자치도 김제시 황산면 남산로 366",
-      "phone": "063-540-7300",
-      "latitude": 35.78316833,
-      "longitude": 126.974558,
-      "status": "operating",
-      "totalStudents": 30,
-      "maleStudents": 16,
-      "femaleStudents": 14,
-      "classCount": 6,
-      "totalTeachers": 8,
-      "teachersExcludingAdmin": 6,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 0,
-      "teachersOver5Years": 2,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 5,
-      "averageClassSize": 5,
-      "riskLevel": "high",
-      "riskFactors": [
-        "초소규모 학교",
-        "교감 공석"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 38,
-          "teachers": 8,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 34,
-          "teachers": 8,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 30,
-          "teachers": 8,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1965-09-02"
-    },
-    {
-      "id": "P10-7631013",
       "name": "만경초등학교",
       "address": "전북특별자치도 김제시 만경읍 능제2길 2",
       "phone": "063-540-7400",
+      "foundedDate": "1909-04-03",
       "latitude": 35.8541727,
       "longitude": 126.8229525,
       "status": "operating",
@@ -689,23 +389,15 @@
       "classCount": 6,
       "totalTeachers": 11,
       "teachersExcludingAdmin": 9,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
       "vacancies": 0,
       "schoolType": "rural",
       "isSmallSchool": false,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
+      "specialPrograms": ["늘봄학교"],
       "hasGym": true,
       "hasPool": false,
       "studentTeacherRatio": 7.2,
@@ -713,32 +405,90 @@
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        {
-          "year": 2022,
-          "students": 72,
-          "teachers": 11,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 68,
-          "teachers": 11,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 65,
-          "teachers": 11,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1909-04-03"
+        { "year": 2023, "students": 72, "teachers": 11, "classes": 6 },
+        { "year": 2024, "students": 68, "teachers": 11, "classes": 6 },
+        { "year": 2025, "students": 65, "teachers": 11, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631012",
+      "name": "금구초등학교",
+      "address": "전북특별자치도 김제시 금구면 금구로 40",
+      "phone": "063-540-6800",
+      "foundedDate": "1912-02-16",
+      "latitude": 35.7744982,
+      "longitude": 127.0125018,
+      "status": "operating",
+      "totalStudents": 55,
+      "maleStudents": 28,
+      "femaleStudents": 27,
+      "classCount": 6,
+      "totalTeachers": 10,
+      "teachersExcludingAdmin": 8,
+      "principal": { "exists": true, "yearsAtSchool": 3 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 2 },
+      "estimatedTransferOut": 2,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 3,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": ["늘봄학교"],
+      "hasGym": true,
+      "hasPool": false,
+      "studentTeacherRatio": 6.9,
+      "averageClassSize": 9.2,
+      "riskLevel": "medium",
+      "riskFactors": ["소규모 학교"],
+      "yearlyData": [
+        { "year": 2023, "students": 62, "teachers": 10, "classes": 6 },
+        { "year": 2024, "students": 58, "teachers": 10, "classes": 6 },
+        { "year": 2025, "students": 55, "teachers": 10, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631013",
+      "name": "진봉초등학교",
+      "address": "전북특별자치도 김제시 진봉면 진봉로 302",
+      "phone": "063-543-3013",
+      "homepage": "http://www.jinbong.es.kr",
+      "foundedDate": "1924-04-01",
+      "latitude": 35.84731438,
+      "longitude": 126.7831996,
+      "status": "operating",
+      "totalStudents": 55,
+      "maleStudents": 28,
+      "femaleStudents": 27,
+      "classCount": 6,
+      "totalTeachers": 10,
+      "teachersExcludingAdmin": 8,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 2,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": ["늘봄학교"],
+      "hasGym": true,
+      "hasPool": false,
+      "studentTeacherRatio": 6.9,
+      "averageClassSize": 9.2,
+      "riskLevel": "medium",
+      "riskFactors": ["소규모 학교"],
+      "yearlyData": [
+        { "year": 2023, "students": 62, "teachers": 10, "classes": 6 },
+        { "year": 2024, "students": 58, "teachers": 10, "classes": 6 },
+        { "year": 2025, "students": 55, "teachers": 10, "classes": 6 }
+      ]
     },
     {
       "id": "P10-7631014",
       "name": "백구초등학교",
       "address": "전북특별자치도 김제시 백구면 석담2길 36",
       "phone": "063-540-7500",
+      "foundedDate": "1963-11-22",
       "latitude": 35.88643131,
       "longitude": 126.9702089,
       "status": "operating",
@@ -748,13 +498,8 @@
       "classCount": 6,
       "totalTeachers": 10,
       "teachersExcludingAdmin": 8,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
@@ -767,572 +512,19 @@
       "studentTeacherRatio": 6.3,
       "averageClassSize": 8.3,
       "riskLevel": "medium",
-      "riskFactors": [
-        "소규모 학교",
-        "교감 공석"
-      ],
+      "riskFactors": ["소규모 학교", "교감 공석"],
       "yearlyData": [
-        {
-          "year": 2022,
-          "students": 58,
-          "teachers": 10,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 54,
-          "teachers": 10,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 50,
-          "teachers": 10,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1963-11-22"
+        { "year": 2023, "students": 58, "teachers": 10, "classes": 6 },
+        { "year": 2024, "students": 54, "teachers": 10, "classes": 6 },
+        { "year": 2025, "students": 50, "teachers": 10, "classes": 6 }
+      ]
     },
     {
       "id": "P10-7631015",
-      "name": "백석초등학교",
-      "address": "전북특별자치도 김제시 백산로 54",
-      "phone": "063-540-7600",
-      "latitude": 35.82867224,
-      "longitude": 126.893416,
-      "status": "operating",
-      "totalStudents": 35,
-      "maleStudents": 18,
-      "femaleStudents": 17,
-      "classCount": 6,
-      "totalTeachers": 8,
-      "teachersExcludingAdmin": 6,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 0,
-      "teachersOver5Years": 1,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 5.8,
-      "averageClassSize": 5.8,
-      "riskLevel": "high",
-      "riskFactors": [
-        "초소규모 학교",
-        "교감 공석"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 42,
-          "teachers": 8,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 38,
-          "teachers": 8,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 35,
-          "teachers": 8,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1925-04-20"
-    },
-    {
-      "id": "P10-7631016",
-      "name": "벽량초등학교",
-      "address": "전북특별자치도 김제시 부량면 대평2길 99",
-      "phone": "063-540-7700",
-      "homepage": "http://gimje-br.es.kr",
-      "latitude": 35.73014148,
-      "longitude": 126.8481832,
-      "status": "operating",
-      "totalStudents": 28,
-      "maleStudents": 15,
-      "femaleStudents": 13,
-      "classCount": 6,
-      "totalTeachers": 8,
-      "teachersExcludingAdmin": 6,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 1,
-      "vacancies": 1,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 4.7,
-      "averageClassSize": 4.7,
-      "riskLevel": "high",
-      "riskFactors": [
-        "초소규모 학교",
-        "교감 공석",
-        "결원 1명"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 35,
-          "teachers": 8,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 32,
-          "teachers": 8,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 28,
-          "teachers": 8,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1936-06-29"
-    },
-    {
-      "id": "P10-7631017",
-      "name": "봉남초등학교",
-      "address": "전북특별자치도 김제시 봉남면 조양1길 11",
-      "phone": "063-540-7800",
-      "latitude": 35.76382853,
-      "longitude": 126.952235,
-      "status": "operating",
-      "totalStudents": 45,
-      "maleStudents": 23,
-      "femaleStudents": 22,
-      "classCount": 6,
-      "totalTeachers": 9,
-      "teachersExcludingAdmin": 7,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 0,
-      "teachersOver5Years": 2,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 6.4,
-      "averageClassSize": 7.5,
-      "riskLevel": "medium",
-      "riskFactors": [
-        "소규모 학교",
-        "교감 공석"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 52,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 48,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 45,
-          "teachers": 9,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1925-04-20"
-    },
-    {
-      "id": "P10-7631018",
-      "name": "부용초등학교",
-      "address": "전북특별자치도 김제시 백구면 황토로 1030",
-      "phone": "063-540-7900",
-      "latitude": 35.87623076,
-      "longitude": 126.951677,
-      "status": "operating",
-      "totalStudents": 38,
-      "maleStudents": 20,
-      "femaleStudents": 18,
-      "classCount": 6,
-      "totalTeachers": 9,
-      "teachersExcludingAdmin": 7,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 2,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 5.4,
-      "averageClassSize": 6.3,
-      "riskLevel": "high",
-      "riskFactors": [
-        "초소규모 학교",
-        "교감 공석"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 45,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 42,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 38,
-          "teachers": 9,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1920-09-21"
-    },
-    {
-      "id": "P10-7631019",
-      "name": "비룡초등학교",
-      "address": "전북특별자치도 김제시 용지면 금백로 845-7",
-      "phone": "063-540-8000",
-      "latitude": 35.84412437,
-      "longitude": 126.9898157,
-      "status": "operating",
-      "totalStudents": 120,
-      "maleStudents": 62,
-      "femaleStudents": 58,
-      "classCount": 7,
-      "totalTeachers": 14,
-      "teachersExcludingAdmin": 12,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "estimatedTransferOut": 2,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 3,
-      "vacancies": 0,
-      "schoolType": "urban",
-      "isSmallSchool": false,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
-      "hasGym": true,
-      "hasPool": false,
-      "studentTeacherRatio": 10,
-      "averageClassSize": 17.1,
-      "riskLevel": "low",
-      "riskFactors": [],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 135,
-          "teachers": 14,
-          "classes": 7
-        },
-        {
-          "year": 2023,
-          "students": 128,
-          "teachers": 14,
-          "classes": 7
-        },
-        {
-          "year": 2024,
-          "students": 120,
-          "teachers": 14,
-          "classes": 7
-        }
-      ],
-      "foundedDate": "1963-05-10"
-    },
-    {
-      "id": "P10-7631020",
-      "name": "성덕초등학교",
-      "address": "전북특별자치도 김제시 성덕면 대석로 75",
-      "phone": "063-540-8100",
-      "latitude": 35.82015047,
-      "longitude": 126.807215,
-      "status": "operating",
-      "totalStudents": 42,
-      "maleStudents": 22,
-      "femaleStudents": 20,
-      "classCount": 6,
-      "totalTeachers": 9,
-      "teachersExcludingAdmin": 7,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 2,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 6,
-      "averageClassSize": 7,
-      "riskLevel": "medium",
-      "riskFactors": [
-        "소규모 학교",
-        "교감 공석"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 50,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 46,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 42,
-          "teachers": 9,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1930-07-15"
-    },
-    {
-      "id": "P10-7631021",
-      "name": "심창초등학교",
-      "address": "전북특별자치도 김제시 금산면 심창로 456",
-      "phone": "063-540-8200",
-      "latitude": 35.8012,
-      "longitude": 127.0234,
-      "status": "closing",
-      "closingDate": "2025-03-01",
-      "totalStudents": 7,
-      "maleStudents": 4,
-      "femaleStudents": 3,
-      "classCount": 4,
-      "totalTeachers": 6,
-      "teachersExcludingAdmin": 4,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 4,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 1,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 1.8,
-      "averageClassSize": 1.8,
-      "riskLevel": "critical",
-      "riskFactors": [
-        "폐교 예정",
-        "학생 10명 이하",
-        "교감 공석"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 15,
-          "teachers": 6,
-          "classes": 5
-        },
-        {
-          "year": 2023,
-          "students": 10,
-          "teachers": 6,
-          "classes": 4
-        },
-        {
-          "year": 2024,
-          "students": 7,
-          "teachers": 6,
-          "classes": 4
-        }
-      ],
-      "notes": "2025년 3월 폐교 예정 - 학생수 급감으로 인한 통폐합"
-    },
-    {
-      "id": "P10-7631022",
-      "name": "용지초등학교",
-      "address": "전북특별자치도 김제시 용지면 용지로 462",
-      "phone": "063-540-8300",
-      "latitude": 35.85413529,
-      "longitude": 126.9586371,
-      "status": "operating",
-      "totalStudents": 32,
-      "maleStudents": 17,
-      "femaleStudents": 15,
-      "classCount": 6,
-      "totalTeachers": 8,
-      "teachersExcludingAdmin": 6,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 0,
-      "teachersOver5Years": 2,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 5.3,
-      "averageClassSize": 5.3,
-      "riskLevel": "high",
-      "riskFactors": [
-        "초소규모 학교",
-        "교감 공석"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 40,
-          "teachers": 8,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 36,
-          "teachers": 8,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 32,
-          "teachers": 8,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1928-06-10"
-    },
-    {
-      "id": "P10-7631023",
-      "name": "원평초등학교",
-      "address": "전북특별자치도 김제시 금산면 원평로 101",
-      "phone": "063-540-8400",
-      "latitude": 35.71738385,
-      "longitude": 126.9944178,
-      "status": "operating",
-      "totalStudents": 95,
-      "maleStudents": 49,
-      "femaleStudents": 46,
-      "classCount": 6,
-      "totalTeachers": 12,
-      "teachersExcludingAdmin": 10,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 2,
-      "vacancies": 0,
-      "schoolType": "urban",
-      "isSmallSchool": false,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
-      "hasGym": true,
-      "hasPool": false,
-      "studentTeacherRatio": 9.5,
-      "averageClassSize": 15.8,
-      "riskLevel": "low",
-      "riskFactors": [],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 105,
-          "teachers": 12,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 100,
-          "teachers": 12,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 95,
-          "teachers": 12,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1915-10-02"
-    },
-    {
-      "id": "P10-7631024",
       "name": "죽산초등학교",
       "address": "전북특별자치도 김제시 죽산면 죽산2길 13",
       "phone": "063-540-8500",
+      "foundedDate": "1924-04-17",
       "latitude": 35.77239966,
       "longitude": 126.8176645,
       "status": "operating",
@@ -1342,13 +534,8 @@
       "classCount": 6,
       "totalTeachers": 10,
       "teachersExcludingAdmin": 8,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": false },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
@@ -1361,175 +548,66 @@
       "studentTeacherRatio": 6,
       "averageClassSize": 8,
       "riskLevel": "medium",
-      "riskFactors": [
-        "소규모 학교",
-        "교감 공석"
-      ],
+      "riskFactors": ["소규모 학교", "교감 공석"],
       "yearlyData": [
-        {
-          "year": 2022,
-          "students": 55,
-          "teachers": 10,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 52,
-          "teachers": 10,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 48,
-          "teachers": 10,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1924-04-17"
+        { "year": 2023, "students": 55, "teachers": 10, "classes": 6 },
+        { "year": 2024, "students": 52, "teachers": 10, "classes": 6 },
+        { "year": 2025, "students": 48, "teachers": 10, "classes": 6 }
+      ]
     },
     {
-      "id": "P10-7631025",
-      "name": "종정초등학교",
-      "address": "전북특별자치도 김제시 백산면 종정1길 143",
-      "phone": "063-540-8600",
-      "homepage": "http://www.jongjeong.es.kr",
-      "latitude": 35.85217451,
-      "longitude": 126.9053671,
+      "id": "P10-7631016",
+      "name": "공덕초등학교",
+      "address": "전북특별자치도 김제시 공덕면 공덕로 248",
+      "phone": "063-540-6600",
+      "foundedDate": "1934-07-16",
+      "latitude": 35.89465475,
+      "longitude": 126.9116039,
       "status": "operating",
-      "totalStudents": 110,
-      "maleStudents": 57,
-      "femaleStudents": 53,
-      "classCount": 7,
-      "totalTeachers": 13,
-      "teachersExcludingAdmin": 11,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "estimatedTransferOut": 2,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 3,
-      "vacancies": 0,
-      "schoolType": "urban",
-      "isSmallSchool": false,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
-      "hasGym": true,
-      "hasPool": false,
-      "studentTeacherRatio": 10,
-      "averageClassSize": 15.7,
-      "riskLevel": "low",
-      "riskFactors": [],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 125,
-          "teachers": 13,
-          "classes": 7
-        },
-        {
-          "year": 2023,
-          "students": 118,
-          "teachers": 13,
-          "classes": 7
-        },
-        {
-          "year": 2024,
-          "students": 110,
-          "teachers": 13,
-          "classes": 7
-        }
-      ],
-      "foundedDate": "1939-05-09"
-    },
-    {
-      "id": "P10-7631026",
-      "name": "진봉초등학교",
-      "address": "전북특별자치도 김제시 진봉면 진봉로 302",
-      "phone": "063-543-3013",
-      "homepage": "http://www.jinbong.es.kr",
-      "latitude": 35.84731438,
-      "longitude": 126.7831996,
-      "status": "operating",
-      "totalStudents": 55,
-      "maleStudents": 28,
-      "femaleStudents": 27,
-      "classCount": 6,
-      "totalTeachers": 10,
-      "teachersExcludingAdmin": 8,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "estimatedTransferOut": 1,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 2,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
-      "hasGym": true,
-      "hasPool": false,
-      "studentTeacherRatio": 6.9,
-      "averageClassSize": 9.2,
-      "riskLevel": "medium",
-      "riskFactors": [
-        "소규모 학교"
-      ],
-      "yearlyData": [
-        {
-          "year": 2022,
-          "students": 62,
-          "teachers": 10,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 58,
-          "teachers": 10,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 55,
-          "teachers": 10,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1924-04-01"
-    },
-    {
-      "id": "P10-7631027",
-      "name": "청하초등학교",
-      "address": "전북특별자치도 김제시 청하면 대청4길 25",
-      "phone": "063-540-8700",
-      "latitude": 35.89335357,
-      "longitude": 126.8586861,
-      "status": "operating",
-      "totalStudents": 38,
-      "maleStudents": 20,
-      "femaleStudents": 18,
+      "totalStudents": 45,
+      "maleStudents": 24,
+      "femaleStudents": 21,
       "classCount": 6,
       "totalTeachers": 9,
       "teachersExcludingAdmin": 7,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 2,
+      "vacancies": 1,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": ["늘봄학교"],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 6.4,
+      "averageClassSize": 7.5,
+      "riskLevel": "medium",
+      "riskFactors": ["소규모 학교", "교감 공석"],
+      "yearlyData": [
+        { "year": 2023, "students": 52, "teachers": 9, "classes": 6 },
+        { "year": 2024, "students": 48, "teachers": 9, "classes": 6 },
+        { "year": 2025, "students": 45, "teachers": 9, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631017",
+      "name": "봉남초등학교",
+      "address": "전북특별자치도 김제시 봉남면 조양1길 11",
+      "phone": "063-540-7800",
+      "foundedDate": "1925-04-20",
+      "latitude": 35.76382853,
+      "longitude": 126.952235,
+      "status": "operating",
+      "totalStudents": 45,
+      "maleStudents": 23,
+      "femaleStudents": 22,
+      "classCount": 6,
+      "totalTeachers": 9,
+      "teachersExcludingAdmin": 7,
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": false },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 0,
       "teachersOver5Years": 2,
@@ -1539,42 +617,24 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 5.4,
-      "averageClassSize": 6.3,
-      "riskLevel": "high",
-      "riskFactors": [
-        "초소규모 학교",
-        "교감 공석"
-      ],
+      "studentTeacherRatio": 6.4,
+      "averageClassSize": 7.5,
+      "riskLevel": "medium",
+      "riskFactors": ["소규모 학교", "교감 공석"],
       "yearlyData": [
-        {
-          "year": 2022,
-          "students": 45,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 42,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 38,
-          "teachers": 9,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1920-10-08"
+        { "year": 2023, "students": 52, "teachers": 9, "classes": 6 },
+        { "year": 2024, "students": 48, "teachers": 9, "classes": 6 },
+        { "year": 2025, "students": 45, "teachers": 9, "classes": 6 }
+      ]
     },
     {
-      "id": "P10-7631028",
-      "name": "황산초등학교",
-      "address": "전북특별자치도 김제시 황산면 용마로 75",
-      "phone": "063-540-8800",
-      "latitude": 35.79637779,
-      "longitude": 126.9446909,
+      "id": "P10-7631018",
+      "name": "성덕초등학교",
+      "address": "전북특별자치도 김제시 성덕면 대석로 75",
+      "phone": "063-540-8100",
+      "foundedDate": "1930-07-15",
+      "latitude": 35.82015047,
+      "longitude": 126.807215,
       "status": "operating",
       "totalStudents": 42,
       "maleStudents": 22,
@@ -1582,13 +642,8 @@
       "classCount": 6,
       "totalTeachers": 9,
       "teachersExcludingAdmin": 7,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": false },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
@@ -1601,39 +656,346 @@
       "studentTeacherRatio": 6,
       "averageClassSize": 7,
       "riskLevel": "medium",
-      "riskFactors": [
-        "소규모 학교",
-        "교감 공석"
-      ],
+      "riskFactors": ["소규모 학교", "교감 공석"],
       "yearlyData": [
-        {
-          "year": 2022,
-          "students": 50,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 46,
-          "teachers": 9,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 42,
-          "teachers": 9,
-          "classes": 6
-        }
-      ],
-      "foundedDate": "1935-05-10"
+        { "year": 2023, "students": 50, "teachers": 9, "classes": 6 },
+        { "year": 2024, "students": 46, "teachers": 9, "classes": 6 },
+        { "year": 2025, "students": 42, "teachers": 9, "classes": 6 }
+      ]
     },
     {
-      "id": "P10-7631029",
-      "name": "황강초등학교",
-      "address": "전북특별자치도 김제시 공덕면 유강4길 94",
-      "phone": "063-540-8900",
-      "latitude": 35.87608915,
-      "longitude": 126.9246759,
+      "id": "P10-7631019",
+      "name": "황산초등학교",
+      "address": "전북특별자치도 김제시 황산면 용마로 75",
+      "phone": "063-540-8800",
+      "foundedDate": "1935-05-10",
+      "latitude": 35.79637779,
+      "longitude": 126.9446909,
+      "status": "operating",
+      "totalStudents": 42,
+      "maleStudents": 22,
+      "femaleStudents": 20,
+      "classCount": 6,
+      "totalTeachers": 9,
+      "teachersExcludingAdmin": 7,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 2,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 6,
+      "averageClassSize": 7,
+      "riskLevel": "medium",
+      "riskFactors": ["소규모 학교", "교감 공석"],
+      "yearlyData": [
+        { "year": 2023, "students": 50, "teachers": 9, "classes": 6 },
+        { "year": 2024, "students": 46, "teachers": 9, "classes": 6 },
+        { "year": 2025, "students": 42, "teachers": 9, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631020",
+      "name": "금산초등학교",
+      "address": "전북특별자치도 김제시 금산면 모악로 383",
+      "phone": "063-540-6900",
+      "foundedDate": "1944-11-01",
+      "latitude": 35.72072233,
+      "longitude": 127.0321781,
+      "status": "operating",
+      "totalStudents": 40,
+      "maleStudents": 21,
+      "femaleStudents": 19,
+      "classCount": 6,
+      "totalTeachers": 9,
+      "teachersExcludingAdmin": 7,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 2,
+      "vacancies": 1,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 5.7,
+      "averageClassSize": 6.7,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석", "결원 1명"],
+      "yearlyData": [
+        { "year": 2023, "students": 48, "teachers": 9, "classes": 6 },
+        { "year": 2024, "students": 44, "teachers": 9, "classes": 6 },
+        { "year": 2025, "students": 40, "teachers": 9, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631021",
+      "name": "부용초등학교",
+      "address": "전북특별자치도 김제시 백구면 황토로 1030",
+      "phone": "063-540-7900",
+      "foundedDate": "1920-09-21",
+      "latitude": 35.87623076,
+      "longitude": 126.951677,
+      "status": "operating",
+      "totalStudents": 38,
+      "maleStudents": 20,
+      "femaleStudents": 18,
+      "classCount": 6,
+      "totalTeachers": 9,
+      "teachersExcludingAdmin": 7,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 2,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 5.4,
+      "averageClassSize": 6.3,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석"],
+      "yearlyData": [
+        { "year": 2023, "students": 45, "teachers": 9, "classes": 6 },
+        { "year": 2024, "students": 42, "teachers": 9, "classes": 6 },
+        { "year": 2025, "students": 38, "teachers": 9, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631022",
+      "name": "청하초등학교",
+      "address": "전북특별자치도 김제시 청하면 대청4길 25",
+      "phone": "063-540-8700",
+      "foundedDate": "1920-10-08",
+      "latitude": 35.89335357,
+      "longitude": 126.8586861,
+      "status": "operating",
+      "totalStudents": 38,
+      "maleStudents": 20,
+      "femaleStudents": 18,
+      "classCount": 6,
+      "totalTeachers": 9,
+      "teachersExcludingAdmin": 7,
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 0,
+      "teachersOver5Years": 2,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 5.4,
+      "averageClassSize": 6.3,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석"],
+      "yearlyData": [
+        { "year": 2023, "students": 45, "teachers": 9, "classes": 6 },
+        { "year": 2024, "students": 42, "teachers": 9, "classes": 6 },
+        { "year": 2025, "students": 38, "teachers": 9, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631023",
+      "name": "광활초등학교",
+      "address": "전북특별자치도 김제시 광활면 광활11길 37",
+      "phone": "063-540-6700",
+      "foundedDate": "1944-04-19",
+      "latitude": 35.8339488,
+      "longitude": 126.7403601,
+      "status": "operating",
+      "totalStudents": 35,
+      "maleStudents": 18,
+      "femaleStudents": 17,
+      "classCount": 6,
+      "totalTeachers": 8,
+      "teachersExcludingAdmin": 6,
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 0,
+      "teachersOver5Years": 1,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 5.8,
+      "averageClassSize": 5.8,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석", "학생수 감소 추세"],
+      "yearlyData": [
+        { "year": 2023, "students": 42, "teachers": 8, "classes": 6 },
+        { "year": 2024, "students": 38, "teachers": 8, "classes": 6 },
+        { "year": 2025, "students": 35, "teachers": 8, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631024",
+      "name": "백석초등학교",
+      "address": "전북특별자치도 김제시 백산로 54",
+      "phone": "063-540-7600",
+      "foundedDate": "1925-04-20",
+      "latitude": 35.82867224,
+      "longitude": 126.893416,
+      "status": "operating",
+      "totalStudents": 35,
+      "maleStudents": 18,
+      "femaleStudents": 17,
+      "classCount": 6,
+      "totalTeachers": 8,
+      "teachersExcludingAdmin": 6,
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 0,
+      "teachersOver5Years": 1,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 5.8,
+      "averageClassSize": 5.8,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석"],
+      "yearlyData": [
+        { "year": 2023, "students": 42, "teachers": 8, "classes": 6 },
+        { "year": 2024, "students": 38, "teachers": 8, "classes": 6 },
+        { "year": 2025, "students": 35, "teachers": 8, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631025",
+      "name": "용지초등학교",
+      "address": "전북특별자치도 김제시 용지면 용지로 462",
+      "phone": "063-540-8300",
+      "foundedDate": "1928-06-10",
+      "latitude": 35.85413529,
+      "longitude": 126.9586371,
+      "status": "operating",
+      "totalStudents": 32,
+      "maleStudents": 17,
+      "femaleStudents": 15,
+      "classCount": 6,
+      "totalTeachers": 8,
+      "teachersExcludingAdmin": 6,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 0,
+      "teachersOver5Years": 2,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 5.3,
+      "averageClassSize": 5.3,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석"],
+      "yearlyData": [
+        { "year": 2023, "students": 40, "teachers": 8, "classes": 6 },
+        { "year": 2024, "students": 36, "teachers": 8, "classes": 6 },
+        { "year": 2025, "students": 32, "teachers": 8, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631026",
+      "name": "남양초등학교",
+      "address": "전북특별자치도 김제시 황산면 남산로 366",
+      "phone": "063-540-7300",
+      "foundedDate": "1965-09-02",
+      "latitude": 35.78316833,
+      "longitude": 126.974558,
+      "status": "operating",
+      "totalStudents": 30,
+      "maleStudents": 16,
+      "femaleStudents": 14,
+      "classCount": 6,
+      "totalTeachers": 8,
+      "teachersExcludingAdmin": 6,
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 0,
+      "teachersOver5Years": 2,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 5,
+      "averageClassSize": 5,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석"],
+      "yearlyData": [
+        { "year": 2023, "students": 38, "teachers": 8, "classes": 6 },
+        { "year": 2024, "students": 34, "teachers": 8, "classes": 6 },
+        { "year": 2025, "students": 30, "teachers": 8, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631027",
+      "name": "벽량초등학교",
+      "address": "전북특별자치도 김제시 부량면 대평2길 99",
+      "phone": "063-540-7700",
+      "homepage": "http://gimje-br.es.kr",
+      "foundedDate": "1936-06-29",
+      "latitude": 35.73014148,
+      "longitude": 126.8481832,
+      "status": "operating",
+      "totalStudents": 28,
+      "maleStudents": 15,
+      "femaleStudents": 13,
+      "classCount": 6,
+      "totalTeachers": 8,
+      "teachersExcludingAdmin": 6,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 1,
+      "vacancies": 1,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 4.7,
+      "averageClassSize": 4.7,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석", "결원 1명"],
+      "yearlyData": [
+        { "year": 2023, "students": 35, "teachers": 8, "classes": 6 },
+        { "year": 2024, "students": 32, "teachers": 8, "classes": 6 },
+        { "year": 2025, "students": 28, "teachers": 8, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631028",
+      "name": "난산초등학교",
+      "address": "전북특별자치도 김제시 백구면 금백로 1213",
+      "phone": "063-540-7200",
+      "foundedDate": "1941-04-18",
+      "latitude": 35.8774561,
+      "longitude": 126.9958992,
       "status": "operating",
       "totalStudents": 25,
       "maleStudents": 13,
@@ -1641,13 +1003,8 @@
       "classCount": 6,
       "totalTeachers": 7,
       "teachersExcludingAdmin": 5,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "vicePrincipal": {
-        "exists": false
-      },
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 1,
@@ -1660,92 +1017,232 @@
       "studentTeacherRatio": 5,
       "averageClassSize": 4.2,
       "riskLevel": "high",
-      "riskFactors": [
-        "초소규모 학교",
-        "교감 공석",
-        "결원 1명",
-        "폐교 위험"
-      ],
+      "riskFactors": ["초소규모 학교", "교감 공석", "결원 1명", "폐교 위험"],
       "yearlyData": [
-        {
-          "year": 2022,
-          "students": 32,
-          "teachers": 7,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 28,
-          "teachers": 7,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 25,
-          "teachers": 7,
-          "classes": 6
-        }
+        { "year": 2023, "students": 32, "teachers": 7, "classes": 6 },
+        { "year": 2024, "students": 28, "teachers": 7, "classes": 6 },
+        { "year": 2025, "students": 25, "teachers": 7, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631029",
+      "name": "황강초등학교",
+      "address": "전북특별자치도 김제시 공덕면 유강4길 94",
+      "phone": "063-540-8900",
+      "foundedDate": "1949-09-05",
+      "latitude": 35.87608915,
+      "longitude": 126.9246759,
+      "status": "operating",
+      "totalStudents": 25,
+      "maleStudents": 13,
+      "femaleStudents": 12,
+      "classCount": 6,
+      "totalTeachers": 7,
+      "teachersExcludingAdmin": 5,
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 1,
+      "vacancies": 1,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 5,
+      "averageClassSize": 4.2,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석", "결원 1명", "폐교 위험"],
+      "yearlyData": [
+        { "year": 2023, "students": 32, "teachers": 7, "classes": 6 },
+        { "year": 2024, "students": 28, "teachers": 7, "classes": 6 },
+        { "year": 2025, "students": 25, "teachers": 7, "classes": 6 }
       ],
-      "notes": "통학차량(택시) 임차 운영 중",
-      "foundedDate": "1949-09-05"
+      "notes": "통학차량(택시) 임차 운영 중"
     },
     {
       "id": "P10-7631030",
-      "name": "흥사초등학교",
-      "address": "전북특별자치도 김제시 흥사동 흥사로 789",
-      "phone": "063-540-9000",
-      "latitude": 35.7945,
-      "longitude": 126.8678,
+      "name": "초처초등학교",
+      "address": "전북특별자치도 김제시 봉남면 초처로 233",
+      "phone": "063-540-8950",
+      "foundedDate": "1939-05-05",
+      "latitude": 35.73907155,
+      "longitude": 126.9548912,
       "status": "operating",
-      "totalStudents": 85,
-      "maleStudents": 44,
-      "femaleStudents": 41,
+      "totalStudents": 22,
+      "maleStudents": 12,
+      "femaleStudents": 10,
       "classCount": 6,
-      "totalTeachers": 11,
-      "teachersExcludingAdmin": 9,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
+      "totalTeachers": 7,
+      "teachersExcludingAdmin": 5,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
-      "teachersOver5Years": 2,
+      "teachersOver5Years": 1,
       "vacancies": 0,
-      "schoolType": "urban",
-      "isSmallSchool": false,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
-      "hasGym": true,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 9.4,
-      "averageClassSize": 14.2,
-      "riskLevel": "low",
-      "riskFactors": [],
+      "studentTeacherRatio": 4.4,
+      "averageClassSize": 3.7,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석", "폐교 위험"],
       "yearlyData": [
-        {
-          "year": 2022,
-          "students": 98,
-          "teachers": 11,
-          "classes": 6
-        },
-        {
-          "year": 2023,
-          "students": 92,
-          "teachers": 11,
-          "classes": 6
-        },
-        {
-          "year": 2024,
-          "students": 85,
-          "teachers": 11,
-          "classes": 6
-        }
+        { "year": 2023, "students": 28, "teachers": 7, "classes": 6 },
+        { "year": 2024, "students": 25, "teachers": 7, "classes": 6 },
+        { "year": 2025, "students": 22, "teachers": 7, "classes": 6 }
       ]
+    },
+    {
+      "id": "P10-7631031",
+      "name": "용동초등학교",
+      "address": "전북특별자치도 김제시 용지면 용덕길 36",
+      "phone": "063-540-8960",
+      "foundedDate": "1950-04-20",
+      "latitude": 35.85457978,
+      "longitude": 127.003365,
+      "status": "operating",
+      "totalStudents": 20,
+      "maleStudents": 11,
+      "femaleStudents": 9,
+      "classCount": 6,
+      "totalTeachers": 7,
+      "teachersExcludingAdmin": 5,
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 0,
+      "teachersOver5Years": 1,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 4,
+      "averageClassSize": 3.3,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석", "폐교 위험"],
+      "yearlyData": [
+        { "year": 2023, "students": 26, "teachers": 7, "classes": 6 },
+        { "year": 2024, "students": 23, "teachers": 7, "classes": 6 },
+        { "year": 2025, "students": 20, "teachers": 7, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631032",
+      "name": "치문초등학교",
+      "address": "전북특별자치도 김제시 백구면 유강11길 43",
+      "phone": "063-540-8970",
+      "foundedDate": "1908-04-15",
+      "latitude": 35.90638956,
+      "longitude": 126.9362332,
+      "status": "operating",
+      "totalStudents": 18,
+      "maleStudents": 10,
+      "femaleStudents": 8,
+      "classCount": 6,
+      "totalTeachers": 7,
+      "teachersExcludingAdmin": 5,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 1,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 3.6,
+      "averageClassSize": 3,
+      "riskLevel": "high",
+      "riskFactors": ["초소규모 학교", "교감 공석", "폐교 위험"],
+      "yearlyData": [
+        { "year": 2023, "students": 24, "teachers": 7, "classes": 6 },
+        { "year": 2024, "students": 21, "teachers": 7, "classes": 6 },
+        { "year": 2025, "students": 18, "teachers": 7, "classes": 6 }
+      ],
+      "notes": "1908년 개교, 김제시 최고(最古) 학교"
+    },
+    {
+      "id": "P10-7631033",
+      "name": "청운초등학교",
+      "address": "전북특별자치도 김제시 금구면 황토로 168-30",
+      "phone": "063-540-8980",
+      "foundedDate": "1943-04-19",
+      "latitude": 35.81054766,
+      "longitude": 126.9826412,
+      "status": "operating",
+      "totalStudents": 15,
+      "maleStudents": 8,
+      "femaleStudents": 7,
+      "classCount": 6,
+      "totalTeachers": 6,
+      "teachersExcludingAdmin": 4,
+      "principal": { "exists": true, "yearsAtSchool": 1 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 1,
+      "teachersNearRetirement": 0,
+      "teachersOver5Years": 1,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 3.8,
+      "averageClassSize": 2.5,
+      "riskLevel": "critical",
+      "riskFactors": ["초소규모 학교", "교감 공석", "폐교 위험", "학생 20명 이하"],
+      "yearlyData": [
+        { "year": 2023, "students": 22, "teachers": 6, "classes": 6 },
+        { "year": 2024, "students": 18, "teachers": 6, "classes": 6 },
+        { "year": 2025, "students": 15, "teachers": 6, "classes": 6 }
+      ]
+    },
+    {
+      "id": "P10-7631034",
+      "name": "심창초등학교",
+      "address": "전북특별자치도 김제시 금산면 심창로 456",
+      "phone": "063-540-8200",
+      "foundedDate": "1952-04-01",
+      "latitude": 35.7412,
+      "longitude": 127.0134,
+      "status": "closing",
+      "closingDate": "2025-03-01",
+      "totalStudents": 7,
+      "maleStudents": 4,
+      "femaleStudents": 3,
+      "classCount": 4,
+      "totalTeachers": 6,
+      "teachersExcludingAdmin": 4,
+      "principal": { "exists": true, "yearsAtSchool": 2 },
+      "vicePrincipal": { "exists": false },
+      "estimatedTransferOut": 4,
+      "teachersNearRetirement": 1,
+      "teachersOver5Years": 1,
+      "vacancies": 0,
+      "schoolType": "rural",
+      "isSmallSchool": true,
+      "specialPrograms": [],
+      "hasGym": false,
+      "hasPool": false,
+      "studentTeacherRatio": 1.8,
+      "averageClassSize": 1.8,
+      "riskLevel": "critical",
+      "riskFactors": ["폐교 예정", "학생 10명 이하", "교감 공석"],
+      "yearlyData": [
+        { "year": 2023, "students": 15, "teachers": 6, "classes": 5 },
+        { "year": 2024, "students": 10, "teachers": 6, "classes": 4 },
+        { "year": 2025, "students": 7, "teachers": 6, "classes": 4 }
+      ],
+      "notes": "2025년 3월 폐교 예정 - 학생수 급감으로 인한 통폐합"
     }
   ]
 }

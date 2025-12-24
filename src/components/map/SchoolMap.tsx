@@ -72,6 +72,29 @@ export default function SchoolMap() {
       return;
     }
 
+    // 이미 카카오맵 스크립트가 로드되어 있는지 확인
+    if (window.kakao && window.kakao.maps) {
+      window.kakao.maps.load(() => {
+        initializeMap();
+      });
+      return;
+    }
+
+    // 이미 스크립트 태그가 있는지 확인
+    const existingScript = document.querySelector('script[src*="dapi.kakao.com"]');
+    if (existingScript) {
+      // 스크립트가 로드될 때까지 대기
+      const checkKakao = setInterval(() => {
+        if (window.kakao && window.kakao.maps) {
+          clearInterval(checkKakao);
+          window.kakao.maps.load(() => {
+            initializeMap();
+          });
+        }
+      }, 100);
+      return () => clearInterval(checkKakao);
+    }
+
     const script = document.createElement('script');
     script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${kakaoMapApiKey}&autoload=false`;
     script.async = true;
@@ -79,44 +102,42 @@ export default function SchoolMap() {
 
     script.onload = () => {
       window.kakao.maps.load(() => {
-        if (mapRef.current) {
-          const options = {
-            center: new window.kakao.maps.LatLng(
-              GIMJE_CENTER.lat,
-              GIMJE_CENTER.lng
-            ),
-            level: 8,
-          };
-          const newMap = new window.kakao.maps.Map(mapRef.current, options);
-          setMap(newMap);
-          setIsMapLoaded(true);
-
-          const zoomControl = new window.kakao.maps.ZoomControl();
-          newMap.addControl(
-            zoomControl,
-            window.kakao.maps.ControlPosition.RIGHT
-          );
-
-          const mapTypeControl = new window.kakao.maps.MapTypeControl();
-          newMap.addControl(
-            mapTypeControl,
-            window.kakao.maps.ControlPosition.TOPRIGHT
-          );
-        }
+        initializeMap();
       });
     };
 
     script.onerror = () => {
-      console.log('Kakao Map script failed to load');
+      console.error('Kakao Map script failed to load');
       setIsMapLoaded(false);
     };
 
-    return () => {
-      if (document.head.contains(script)) {
-        document.head.removeChild(script);
+    function initializeMap() {
+      if (mapRef.current && !map) {
+        const options = {
+          center: new window.kakao.maps.LatLng(
+            GIMJE_CENTER.lat,
+            GIMJE_CENTER.lng
+          ),
+          level: 9,
+        };
+        const newMap = new window.kakao.maps.Map(mapRef.current, options);
+        setMap(newMap);
+        setIsMapLoaded(true);
+
+        const zoomControl = new window.kakao.maps.ZoomControl();
+        newMap.addControl(
+          zoomControl,
+          window.kakao.maps.ControlPosition.RIGHT
+        );
+
+        const mapTypeControl = new window.kakao.maps.MapTypeControl();
+        newMap.addControl(
+          mapTypeControl,
+          window.kakao.maps.ControlPosition.TOPRIGHT
+        );
       }
-    };
-  }, []);
+    }
+  }, [map]);
 
   // 마커 생성 및 업데이트
   useEffect(() => {
