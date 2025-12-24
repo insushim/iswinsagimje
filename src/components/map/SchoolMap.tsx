@@ -21,9 +21,16 @@ const GIMJE_BOUNDS = {
 };
 const GIMJE_CENTER = { lat: 35.815, lng: 126.885 };
 
-// 학교 이름에서 "초등학교" 제거
+// 학교 이름 축약 (김제초등학교 → 김제초, 김제검산초등학교 → 검산초)
 const getShortName = (name: string): string => {
-  return name.replace('초등학교', '초').replace('김제', '');
+  // 먼저 "초등학교"를 "초"로 변경
+  let shortName = name.replace('초등학교', '초');
+
+  // "김제초"는 그대로 유지, 나머지는 "김제" 제거
+  if (shortName === '김제초') {
+    return '김제초';
+  }
+  return shortName.replace('김제', '');
 };
 
 const getMarkerColor = (school: SchoolInfo): string => {
@@ -395,30 +402,31 @@ export default function SchoolMap() {
       </div>
     `;
 
+      // 버튼 이벤트 먼저 연결
+      const closeBtn = content.querySelector(`#close-btn-${school.id}`);
+      const detailBtn = content.querySelector(`#detail-btn-${school.id}`);
+
       const infoOverlay = new window.kakao.maps.CustomOverlay({
         position: position,
         content: content,
         yAnchor: 1.2,
       });
 
+      // X 버튼 클릭 이벤트
+      closeBtn?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        infoOverlay.setMap(null);
+        setActiveOverlay(null);
+      });
+
+      // 상세보기 버튼 클릭 이벤트
+      detailBtn?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        window.location.href = `/schools/${school.id}`;
+      });
+
       infoOverlay.setMap(map);
       setActiveOverlay(infoOverlay);
-
-      // 버튼 이벤트 추가
-      setTimeout(() => {
-        document
-          .getElementById(`close-btn-${school.id}`)
-          ?.addEventListener('click', () => {
-            infoOverlay.setMap(null);
-            setActiveOverlay(null);
-          });
-
-        document
-          .getElementById(`detail-btn-${school.id}`)
-          ?.addEventListener('click', () => {
-            window.location.href = `/schools/${school.id}`;
-          });
-      }, 100);
     },
     [map, activeOverlay, isMapLoaded]
   );
