@@ -12,9 +12,14 @@ declare global {
   }
 }
 
-// 김제시 중심 좌표 (35.8도, 126.88도 = 전북 김제시)
-const GIMJE_CENTER = { lat: 35.80, lng: 126.88 };
-const DEFAULT_ZOOM = 10; // 김제시 전체가 보이는 줌 레벨 (1=가까이, 14=멀리)
+// 김제시 전체 범위 (모든 학교 좌표 기반)
+// 북: 35.91 (치문초), 남: 35.72 (금산초/원평초)
+// 서: 126.74 (광활초), 동: 127.03 (금산초)
+const GIMJE_BOUNDS = {
+  sw: { lat: 35.71, lng: 126.73 }, // 남서쪽
+  ne: { lat: 35.92, lng: 127.04 }, // 북동쪽
+};
+const GIMJE_CENTER = { lat: 35.815, lng: 126.885 };
 
 // 학교 이름에서 "초등학교" 제거
 const getShortName = (name: string): string => {
@@ -120,14 +125,23 @@ export default function SchoolMap() {
 
     function initializeMap() {
       if (mapRef.current && !map) {
+        // 김제시 중심으로 초기화
         const options = {
           center: new window.kakao.maps.LatLng(
             GIMJE_CENTER.lat,
             GIMJE_CENTER.lng
           ),
-          level: DEFAULT_ZOOM,
+          level: 8, // 초기 줌 레벨
         };
         const newMap = new window.kakao.maps.Map(mapRef.current, options);
+
+        // 김제시 전체 범위가 보이도록 설정
+        const bounds = new window.kakao.maps.LatLngBounds(
+          new window.kakao.maps.LatLng(GIMJE_BOUNDS.sw.lat, GIMJE_BOUNDS.sw.lng),
+          new window.kakao.maps.LatLng(GIMJE_BOUNDS.ne.lat, GIMJE_BOUNDS.ne.lng)
+        );
+        newMap.setBounds(bounds);
+
         setMap(newMap);
         setIsMapLoaded(true);
 
@@ -449,9 +463,12 @@ export default function SchoolMap() {
       {/* 지도 컨트롤 - 리셋 버튼 누르면 김제시 전체 보기 */}
       <MapControls
         onReset={() => {
-          if (map) {
-            map.setCenter(new window.kakao.maps.LatLng(35.80, 126.88));
-            map.setLevel(10);
+          if (map && window.kakao) {
+            const bounds = new window.kakao.maps.LatLngBounds(
+              new window.kakao.maps.LatLng(GIMJE_BOUNDS.sw.lat, GIMJE_BOUNDS.sw.lng),
+              new window.kakao.maps.LatLng(GIMJE_BOUNDS.ne.lat, GIMJE_BOUNDS.ne.lng)
+            );
+            map.setBounds(bounds);
           }
         }}
         onZoomIn={() => map?.setLevel(map.getLevel() - 1)}
