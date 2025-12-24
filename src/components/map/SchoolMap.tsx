@@ -167,11 +167,17 @@ export default function SchoolMap() {
 
     const newOverlays: any[] = [];
 
+    // 모든 학교를 포함하는 범위 계산
+    const bounds = new window.kakao.maps.LatLngBounds();
+
     filteredSchools.forEach((school) => {
       const position = new window.kakao.maps.LatLng(
         school.latitude,
         school.longitude
       );
+
+      // 범위에 학교 위치 추가
+      bounds.extend(position);
 
       const markerColor = getMarkerColor(school);
       const shortName = getShortName(school.name);
@@ -242,6 +248,11 @@ export default function SchoolMap() {
       customOverlay.setMap(map);
       newOverlays.push(customOverlay);
     });
+
+    // 모든 학교가 보이도록 지도 범위 조정
+    if (filteredSchools.length > 0) {
+      map.setBounds(bounds);
+    }
 
     setOverlays(newOverlays);
   }, [map, filteredSchools, isMapLoaded]);
@@ -477,7 +488,7 @@ export default function SchoolMap() {
       {/* 학교 수 표시 */}
       <div className="absolute top-4 left-4 bg-white rounded-lg shadow-lg px-4 py-2">
         <span className="text-sm">
-          김제시 초등학교: <strong>{filteredSchools.length}</strong>개 (v2)
+          김제시 초등학교: <strong>{filteredSchools.length}</strong>개
         </span>
       </div>
     </div>
