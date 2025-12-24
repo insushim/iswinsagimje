@@ -40,7 +40,7 @@ interface SchoolState {
 
 const defaultFilters: FilterOptions = {
   status: ['operating', 'closing'],
-  studentRange: { min: 0, max: 1000 },
+  studentRange: { min: 0, max: 700 },
   teacherRange: { min: 0, max: 100 },
   hasPrincipal: null,
   hasVicePrincipal: null,

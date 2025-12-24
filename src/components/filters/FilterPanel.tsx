@@ -252,7 +252,7 @@ export default function FilterPanel() {
           <Slider
             className="mt-4"
             min={0}
-            max={500}
+            max={700}
             step={10}
             value={[filters.studentRange.min, filters.studentRange.max]}
             onValueChange={([min, max]) =>
