@@ -80,6 +80,7 @@ export interface SchoolInfo {
   schoolType: SchoolType;
   isSmallSchool: boolean;
   specialPrograms: string[];
+  tier?: 1 | 2 | 3 | 4 | 5; // 급지 (1급지~5급지)
 
   // 시설
   hasGym: boolean;
@@ -109,6 +110,7 @@ export interface FilterOptions {
   isSmallSchool: boolean | null;
   hasVacancy: boolean | null;
   riskLevel: RiskLevel[];
+  tier: (1 | 2 | 3 | 4 | 5)[]; // 급지 필터
 }
 
 export interface MapConfig {

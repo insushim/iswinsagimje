@@ -48,6 +48,7 @@ const defaultFilters: FilterOptions = {
   isSmallSchool: null,
   hasVacancy: null,
   riskLevel: ['low', 'medium', 'high', 'critical'],
+  tier: [1, 2, 3, 4, 5],
 };
 
 export const useSchoolStore = create<SchoolState>((set, get) => ({
@@ -171,6 +172,9 @@ export const useSchoolStore = create<SchoolState>((set, get) => ({
       // 리스크 레벨
       if (!filters.riskLevel.includes(school.riskLevel)) return false;
 
+      // 급지 필터
+      if (school.tier && !filters.tier.includes(school.tier)) return false;
+
       return true;
     });
 
@@ -194,6 +198,10 @@ export const useSchoolStore = create<SchoolState>((set, get) => ({
         case 'risk':
           const riskOrder = { critical: 0, high: 1, medium: 2, low: 3 };
           return riskOrder[a.riskLevel] - riskOrder[b.riskLevel];
+        case 'tier_asc':
+          return (a.tier || 0) - (b.tier || 0);
+        case 'tier_desc':
+          return (b.tier || 0) - (a.tier || 0);
         default:
           return 0;
       }

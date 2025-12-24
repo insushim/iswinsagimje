@@ -54,6 +54,23 @@ const getStatusColor = (status: string): string => {
   }
 };
 
+const getTierBadgeColor = (tier: number): string => {
+  switch (tier) {
+    case 1:
+      return 'bg-blue-100 text-blue-700 border-blue-300';
+    case 2:
+      return 'bg-green-100 text-green-700 border-green-300';
+    case 3:
+      return 'bg-yellow-100 text-yellow-700 border-yellow-300';
+    case 4:
+      return 'bg-orange-100 text-orange-700 border-orange-300';
+    case 5:
+      return 'bg-red-100 text-red-700 border-red-300';
+    default:
+      return 'bg-gray-100 text-gray-700 border-gray-300';
+  }
+};
+
 export default function SchoolCard({
   school,
   isSelected = false,
@@ -74,9 +91,16 @@ export default function SchoolCard({
           <h3 className="font-semibold text-gray-900">{school.name}</h3>
           <p className="text-xs text-gray-500 mt-0.5">{school.address}</p>
         </div>
-        <Badge variant={getRiskBadgeVariant(school.riskLevel)}>
-          {getRiskLabel(school.riskLevel)}
-        </Badge>
+        <div className="flex gap-1">
+          {school.tier && (
+            <span className={`text-xs px-2 py-0.5 rounded-full font-medium border ${getTierBadgeColor(school.tier)}`}>
+              {school.tier}급지
+            </span>
+          )}
+          <Badge variant={getRiskBadgeVariant(school.riskLevel)}>
+            {getRiskLabel(school.riskLevel)}
+          </Badge>
+        </div>
       </div>
 
       {school.status === 'closing' && (

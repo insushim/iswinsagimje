@@ -69,6 +69,23 @@ const getRiskColor = (riskLevel: RiskLevel): string => {
   }
 };
 
+const getTierColor = (tier: number): string => {
+  switch (tier) {
+    case 1:
+      return '#3B82F6'; // blue
+    case 2:
+      return '#22C55E'; // green
+    case 3:
+      return '#EAB308'; // yellow
+    case 4:
+      return '#F97316'; // orange
+    case 5:
+      return '#EF4444'; // red
+    default:
+      return '#6B7280'; // gray
+  }
+};
+
 export default function SchoolMap() {
   const mapRef = useRef<HTMLDivElement>(null);
   const [map, setMap] = useState<any>(null);
@@ -285,14 +302,24 @@ export default function SchoolMap() {
       ">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
           <h3 style="margin: 0; font-size: 16px; font-weight: 700; color: #1f2937;">${school.name}</h3>
-          <span style="
-            font-size: 12px;
-            padding: 4px 8px;
-            border-radius: 9999px;
-            background: ${getRiskColor(school.riskLevel)}20;
-            color: ${getRiskColor(school.riskLevel)};
-            font-weight: 600;
-          ">${getRiskBadge(school.riskLevel)}</span>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            ${school.tier ? `<span style="
+              font-size: 12px;
+              padding: 4px 8px;
+              border-radius: 9999px;
+              background: ${getTierColor(school.tier)}20;
+              color: ${getTierColor(school.tier)};
+              font-weight: 600;
+            ">${school.tier}급지</span>` : ''}
+            <span style="
+              font-size: 12px;
+              padding: 4px 8px;
+              border-radius: 9999px;
+              background: ${getRiskColor(school.riskLevel)}20;
+              color: ${getRiskColor(school.riskLevel)};
+              font-weight: 600;
+            ">${getRiskBadge(school.riskLevel)}</span>
+          </div>
         </div>
 
         ${

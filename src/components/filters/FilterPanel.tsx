@@ -44,6 +44,13 @@ export default function FilterPanel() {
     setFilters({ riskLevel: newLevels as any });
   };
 
+  const handleTierChange = (tier: 1 | 2 | 3 | 4 | 5, checked: boolean) => {
+    const newTiers = checked
+      ? [...filters.tier, tier]
+      : filters.tier.filter((t) => t !== tier);
+    setFilters({ tier: newTiers });
+  };
+
   return (
     <Card className="h-full overflow-auto border-0 shadow-none">
       <CardHeader className="pb-4 sticky top-0 bg-white z-10">
@@ -91,6 +98,8 @@ export default function FilterPanel() {
             <option value="ratio_asc">교사당 학생 적은순</option>
             <option value="ratio_desc">교사당 학생 많은순</option>
             <option value="risk">위험도순</option>
+            <option value="tier_asc">급지 낮은순</option>
+            <option value="tier_desc">급지 높은순</option>
           </select>
         </div>
 
@@ -240,6 +249,39 @@ export default function FilterPanel() {
               </label>
             </div>
           </div>
+        </div>
+
+        <Separator />
+
+        {/* 급지 */}
+        <div>
+          <Label className="text-sm font-medium">급지</Label>
+          <div className="mt-3 grid grid-cols-5 gap-2">
+            {([1, 2, 3, 4, 5] as const).map((tier) => (
+              <div key={tier} className="flex items-center gap-1">
+                <Checkbox
+                  id={`tier-${tier}`}
+                  checked={filters.tier.includes(tier)}
+                  onCheckedChange={(checked) =>
+                    handleTierChange(tier, !!checked)
+                  }
+                />
+                <label
+                  htmlFor={`tier-${tier}`}
+                  className={`text-sm cursor-pointer font-medium ${
+                    tier === 1 ? 'text-blue-600' :
+                    tier === 2 ? 'text-green-600' :
+                    tier === 3 ? 'text-yellow-600' :
+                    tier === 4 ? 'text-orange-600' :
+                    'text-red-600'
+                  }`}
+                >
+                  {tier}급
+                </label>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-gray-500 mt-2">1급지(도심) ~ 5급지(벽지)</p>
         </div>
 
         <Separator />
