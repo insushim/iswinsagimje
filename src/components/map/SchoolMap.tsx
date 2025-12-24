@@ -232,7 +232,7 @@ export default function SchoolMap() {
 
       const container = markerContent.querySelector('.school-marker-container');
       container?.addEventListener('click', () => {
-        selectSchool(school);
+        // 지도에서 마커 클릭 시 팝업만 표시 (selectSchool 호출하지 않음)
         showInfoWindow(school, position);
       });
 
@@ -443,13 +443,27 @@ export default function SchoolMap() {
     [map, isMapLoaded]
   );
 
-  // 선택된 학교로 이동 - 지도에서 클릭 시 이동하지 않음 (팝업만 표시)
-  // 목록에서 클릭할 때만 이동하도록 하려면 별도 상태 관리 필요
-  // useEffect(() => {
-  //   if (selectedSchool && map && isMapLoaded) {
-  //     panTo(selectedSchool.latitude, selectedSchool.longitude, 4);
-  //   }
-  // }, [selectedSchool, map, isMapLoaded, panTo]);
+  // 선택된 학교의 팝업 표시 (목록에서 클릭 시)
+  useEffect(() => {
+    if (selectedSchool && map && isMapLoaded) {
+      const position = new window.kakao.maps.LatLng(
+        selectedSchool.latitude,
+        selectedSchool.longitude
+      );
+
+      // 해당 학교가 현재 화면에 보이는지 확인
+      const bounds = map.getBounds();
+      const isInBounds = bounds.contain(position);
+
+      // 화면에 없으면 해당 학교가 보이도록 이동 (줌 레벨은 유지)
+      if (!isInBounds) {
+        map.panTo(position);
+      }
+
+      // 팝업 표시
+      showInfoWindow(selectedSchool, position);
+    }
+  }, [selectedSchool, map, isMapLoaded]);
 
   // API 키가 없을 때 폴백 UI
   if (!process.env.NEXT_PUBLIC_KAKAO_MAP_API_KEY) {
