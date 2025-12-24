@@ -3,10 +3,10 @@
     "region": "전북특별자치도 김제시",
     "educationOffice": "전북특별자치도김제교육지원청",
     "educationOfficeCode": "P10",
-    "lastUpdated": "2024-12-24",
+    "lastUpdated": "2025-12-24",
     "source": "학교알리미(schoolinfo.go.kr), NEIS, 김제교육지원청",
     "baseYear": 2025,
-    "dataNote": "학교알리미 2025년 기준 실제 데이터"
+    "dataNote": "학교알리미 2025년 교원현황 실제 데이터"
   },
   "schools": [
     {
@@ -23,27 +23,53 @@
       "maleStudents": 335,
       "femaleStudents": 294,
       "classCount": 32,
-      "totalTeachers": 51,
+      "totalTeachers": 40,
       "teachersExcludingAdmin": 35,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 5,
       "teachersNearRetirement": 3,
       "teachersOver5Years": 12,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교", "방과후학교", "SW교육", "영재학급"],
+      "specialPrograms": [
+        "늘봄학교",
+        "방과후학교",
+        "SW교육",
+        "영재학급"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 12.3,
-      "averageClassSize": 21.0,
+      "studentTeacherRatio": 15.7,
+      "averageClassSize": 21,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 650, "teachers": 51, "classes": 30 },
-        { "year": 2024, "students": 640, "teachers": 51, "classes": 30 },
-        { "year": 2025, "students": 629, "teachers": 51, "classes": 30 }
+        {
+          "year": 2023,
+          "students": 650,
+          "teachers": 51,
+          "classes": 30
+        },
+        {
+          "year": 2024,
+          "students": 640,
+          "teachers": 51,
+          "classes": 30
+        },
+        {
+          "year": 2025,
+          "students": 629,
+          "teachers": 51,
+          "classes": 30
+        }
       ],
       "dataSource": "학교알리미 2025"
     },
@@ -61,28 +87,54 @@
       "maleStudents": 160,
       "femaleStudents": 145,
       "classCount": 17,
-      "totalTeachers": 31,
+      "totalTeachers": 22,
       "teachersExcludingAdmin": 20,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 3,
       "teachersNearRetirement": 2,
       "teachersOver5Years": 6,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": ["IB 후보학교", "늘봄학교", "방과후학교"],
+      "specialPrograms": [
+        "IB 후보학교",
+        "늘봄학교",
+        "방과후학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 10.5,
+      "studentTeacherRatio": 13.9,
       "averageClassSize": 20.3,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 320, "teachers": 31, "classes": 15 },
-        { "year": 2024, "students": 312, "teachers": 31, "classes": 15 },
-        { "year": 2025, "students": 305, "teachers": 31, "classes": 15 }
-      ]
+        {
+          "year": 2023,
+          "students": 320,
+          "teachers": 31,
+          "classes": 15
+        },
+        {
+          "year": 2024,
+          "students": 312,
+          "teachers": 31,
+          "classes": 15
+        },
+        {
+          "year": 2025,
+          "students": 305,
+          "teachers": 31,
+          "classes": 15
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631003",
@@ -100,26 +152,51 @@
       "classCount": 13,
       "totalTeachers": 17,
       "teachersExcludingAdmin": 24,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 3,
       "teachersNearRetirement": 2,
       "teachersOver5Years": 5,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교", "방과후학교"],
+      "specialPrograms": [
+        "늘봄학교",
+        "방과후학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 11.7,
+      "studentTeacherRatio": 13,
       "averageClassSize": 20,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 295, "teachers": 26, "classes": 14 },
-        { "year": 2024, "students": 288, "teachers": 26, "classes": 14 },
-        { "year": 2025, "students": 280, "teachers": 26, "classes": 14 }
-      ]
+        {
+          "year": 2023,
+          "students": 295,
+          "teachers": 26,
+          "classes": 14
+        },
+        {
+          "year": 2024,
+          "students": 288,
+          "teachers": 26,
+          "classes": 14
+        },
+        {
+          "year": 2025,
+          "students": 280,
+          "teachers": 26,
+          "classes": 14
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631004",
@@ -135,28 +212,52 @@
       "maleStudents": 201,
       "femaleStudents": 210,
       "classCount": 22,
-      "totalTeachers": 27,
+      "totalTeachers": 28,
       "teachersExcludingAdmin": 16,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 2,
       "teachersNearRetirement": 2,
       "teachersOver5Years": 4,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 11.3,
+      "studentTeacherRatio": 14.7,
       "averageClassSize": 18,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 195, "teachers": 18, "classes": 10 },
-        { "year": 2024, "students": 188, "teachers": 18, "classes": 10 },
-        { "year": 2025, "students": 180, "teachers": 18, "classes": 10 }
-      ]
+        {
+          "year": 2023,
+          "students": 195,
+          "teachers": 18,
+          "classes": 10
+        },
+        {
+          "year": 2024,
+          "students": 188,
+          "teachers": 18,
+          "classes": 10
+        },
+        {
+          "year": 2025,
+          "students": 180,
+          "teachers": 18,
+          "classes": 10
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631005",
@@ -172,28 +273,52 @@
       "maleStudents": 78,
       "femaleStudents": 72,
       "classCount": 6,
-      "totalTeachers": 15,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 13,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 2 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
       "estimatedTransferOut": 2,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 3,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 11.5,
+      "studentTeacherRatio": 18.8,
       "averageClassSize": 18.8,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 165, "teachers": 15, "classes": 8 },
-        { "year": 2024, "students": 158, "teachers": 15, "classes": 8 },
-        { "year": 2025, "students": 150, "teachers": 15, "classes": 8 }
-      ]
+        {
+          "year": 2023,
+          "students": 165,
+          "teachers": 15,
+          "classes": 8
+        },
+        {
+          "year": 2024,
+          "students": 158,
+          "teachers": 15,
+          "classes": 8
+        },
+        {
+          "year": 2025,
+          "students": 150,
+          "teachers": 15,
+          "classes": 8
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631006",
@@ -208,28 +333,52 @@
       "maleStudents": 37,
       "femaleStudents": 35,
       "classCount": 6,
-      "totalTeachers": 11,
+      "totalTeachers": 7,
       "teachersExcludingAdmin": 12,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 2,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 3,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 10.4,
+      "studentTeacherRatio": 10.3,
       "averageClassSize": 17.9,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 140, "teachers": 14, "classes": 7 },
-        { "year": 2024, "students": 132, "teachers": 14, "classes": 7 },
-        { "year": 2025, "students": 125, "teachers": 14, "classes": 7 }
-      ]
+        {
+          "year": 2023,
+          "students": 140,
+          "teachers": 14,
+          "classes": 7
+        },
+        {
+          "year": 2024,
+          "students": 132,
+          "teachers": 14,
+          "classes": 7
+        },
+        {
+          "year": 2025,
+          "students": 125,
+          "teachers": 14,
+          "classes": 7
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631007",
@@ -244,28 +393,52 @@
       "maleStudents": 21,
       "femaleStudents": 18,
       "classCount": 6,
-      "totalTeachers": 12,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 9,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 9.4,
+      "studentTeacherRatio": 4.9,
       "averageClassSize": 14.2,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 98, "teachers": 11, "classes": 6 },
-        { "year": 2024, "students": 92, "teachers": 11, "classes": 6 },
-        { "year": 2025, "students": 85, "teachers": 11, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 98,
+          "teachers": 11,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 92,
+          "teachers": 11,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 85,
+          "teachers": 11,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631008",
@@ -280,28 +453,52 @@
       "maleStudents": 62,
       "femaleStudents": 58,
       "classCount": 6,
-      "totalTeachers": 14,
+      "totalTeachers": 7,
       "teachersExcludingAdmin": 12,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 2,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 3,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 10,
+      "studentTeacherRatio": 17.1,
       "averageClassSize": 17.1,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 135, "teachers": 14, "classes": 7 },
-        { "year": 2024, "students": 128, "teachers": 14, "classes": 7 },
-        { "year": 2025, "students": 120, "teachers": 14, "classes": 7 }
-      ]
+        {
+          "year": 2023,
+          "students": 135,
+          "teachers": 14,
+          "classes": 7
+        },
+        {
+          "year": 2024,
+          "students": 128,
+          "teachers": 14,
+          "classes": 7
+        },
+        {
+          "year": 2025,
+          "students": 120,
+          "teachers": 14,
+          "classes": 7
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631009",
@@ -317,28 +514,52 @@
       "maleStudents": 57,
       "femaleStudents": 53,
       "classCount": 6,
-      "totalTeachers": 13,
+      "totalTeachers": 7,
       "teachersExcludingAdmin": 11,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 2,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 3,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 10,
+      "studentTeacherRatio": 15.7,
       "averageClassSize": 15.7,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 125, "teachers": 13, "classes": 7 },
-        { "year": 2024, "students": 118, "teachers": 13, "classes": 7 },
-        { "year": 2025, "students": 110, "teachers": 13, "classes": 7 }
-      ]
+        {
+          "year": 2023,
+          "students": 125,
+          "teachers": 13,
+          "classes": 7
+        },
+        {
+          "year": 2024,
+          "students": 118,
+          "teachers": 13,
+          "classes": 7
+        },
+        {
+          "year": 2025,
+          "students": 110,
+          "teachers": 13,
+          "classes": 7
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631010",
@@ -353,28 +574,52 @@
       "maleStudents": 24,
       "femaleStudents": 30,
       "classCount": 6,
-      "totalTeachers": 11,
+      "totalTeachers": 7,
       "teachersExcludingAdmin": 10,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
       "vacancies": 0,
       "schoolType": "urban",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 9.5,
+      "studentTeacherRatio": 7.7,
       "averageClassSize": 15.8,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 105, "teachers": 12, "classes": 6 },
-        { "year": 2024, "students": 100, "teachers": 12, "classes": 6 },
-        { "year": 2025, "students": 95, "teachers": 12, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 105,
+          "teachers": 12,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 100,
+          "teachers": 12,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 95,
+          "teachers": 12,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631011",
@@ -389,28 +634,52 @@
       "maleStudents": 34,
       "femaleStudents": 31,
       "classCount": 6,
-      "totalTeachers": 11,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 9,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
       "vacancies": 0,
       "schoolType": "rural",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 7.2,
+      "studentTeacherRatio": 8.1,
       "averageClassSize": 10.8,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 72, "teachers": 11, "classes": 6 },
-        { "year": 2024, "students": 68, "teachers": 11, "classes": 6 },
-        { "year": 2025, "students": 65, "teachers": 11, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 72,
+          "teachers": 11,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 68,
+          "teachers": 11,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 65,
+          "teachers": 11,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631012",
@@ -425,27 +694,50 @@
       "maleStudents": 45,
       "femaleStudents": 33,
       "classCount": 6,
-      "totalTeachers": 13,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 11,
-      "principal": { "exists": true, "yearsAtSchool": 3 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 2 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 3
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
       "estimatedTransferOut": 2,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 3,
       "vacancies": 0,
       "schoolType": "rural",
       "isSmallSchool": false,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 7.1,
-      "averageClassSize": 13.0,
+      "studentTeacherRatio": 9.8,
+      "averageClassSize": 13,
       "riskLevel": "low",
       "riskFactors": [],
       "yearlyData": [
-        { "year": 2023, "students": 85, "teachers": 13, "classes": 6 },
-        { "year": 2024, "students": 82, "teachers": 13, "classes": 6 },
-        { "year": 2025, "students": 78, "teachers": 13, "classes": 6 }
+        {
+          "year": 2023,
+          "students": 85,
+          "teachers": 13,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 82,
+          "teachers": 13,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 78,
+          "teachers": 13,
+          "classes": 6
+        }
       ],
       "dataSource": "학교알리미 2025"
     },
@@ -463,27 +755,54 @@
       "maleStudents": 7,
       "femaleStudents": 0,
       "classCount": 4,
-      "totalTeachers": 8,
+      "totalTeachers": 7,
       "teachersExcludingAdmin": 8,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": true, "yearsAtSchool": 1 },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
       "vacancies": 0,
       "schoolType": "rural",
       "isSmallSchool": true,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": true,
       "hasPool": false,
-      "studentTeacherRatio": 6.9,
+      "studentTeacherRatio": 1,
       "averageClassSize": 9.2,
       "riskLevel": "critical",
-      "riskFactors": ["초소규모 학교", "학생수 10명 이하", "폐교 위험"],
+      "riskFactors": [
+        "초소규모 학교",
+        "학생수 10명 이하",
+        "폐교 위험"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 22, "teachers": 8, "classes": 6 },
-        { "year": 2024, "students": 15, "teachers": 8, "classes": 5 },
-        { "year": 2025, "students": 7, "teachers": 8, "classes": 4 }
+        {
+          "year": 2023,
+          "students": 22,
+          "teachers": 8,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 15,
+          "teachers": 8,
+          "classes": 5
+        },
+        {
+          "year": 2025,
+          "students": 7,
+          "teachers": 8,
+          "classes": 4
+        }
       ],
       "dataSource": "학교알리미 2025"
     },
@@ -500,10 +819,15 @@
       "maleStudents": 26,
       "femaleStudents": 24,
       "classCount": 5,
-      "totalTeachers": 10,
+      "totalTeachers": 7,
       "teachersExcludingAdmin": 8,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
@@ -513,15 +837,34 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 6.3,
+      "studentTeacherRatio": 7.1,
       "averageClassSize": 8.3,
       "riskLevel": "medium",
-      "riskFactors": ["소규모 학교", "교감 공석"],
+      "riskFactors": [
+        "소규모 학교",
+        "교감 공석"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 58, "teachers": 10, "classes": 6 },
-        { "year": 2024, "students": 54, "teachers": 10, "classes": 6 },
-        { "year": 2025, "students": 50, "teachers": 10, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 58,
+          "teachers": 10,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 54,
+          "teachers": 10,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 50,
+          "teachers": 10,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631015",
@@ -536,10 +879,15 @@
       "maleStudents": 17,
       "femaleStudents": 7,
       "classCount": 6,
-      "totalTeachers": 12,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 8,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
@@ -549,15 +897,34 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 6,
+      "studentTeacherRatio": 3,
       "averageClassSize": 8,
       "riskLevel": "medium",
-      "riskFactors": ["소규모 학교", "교감 공석"],
+      "riskFactors": [
+        "소규모 학교",
+        "교감 공석"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 55, "teachers": 10, "classes": 6 },
-        { "year": 2024, "students": 52, "teachers": 10, "classes": 6 },
-        { "year": 2025, "students": 48, "teachers": 10, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 55,
+          "teachers": 10,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 52,
+          "teachers": 10,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 48,
+          "teachers": 10,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631016",
@@ -572,28 +939,54 @@
       "maleStudents": 24,
       "femaleStudents": 21,
       "classCount": 6,
-      "totalTeachers": 9,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 7,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
       "vacancies": 1,
       "schoolType": "rural",
       "isSmallSchool": true,
-      "specialPrograms": ["늘봄학교"],
+      "specialPrograms": [
+        "늘봄학교"
+      ],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 6.4,
+      "studentTeacherRatio": 5.6,
       "averageClassSize": 7.5,
       "riskLevel": "medium",
-      "riskFactors": ["소규모 학교", "교감 공석"],
+      "riskFactors": [
+        "소규모 학교",
+        "교감 공석"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 52, "teachers": 9, "classes": 6 },
-        { "year": 2024, "students": 48, "teachers": 9, "classes": 6 },
-        { "year": 2025, "students": 45, "teachers": 9, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 52,
+          "teachers": 9,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 48,
+          "teachers": 9,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 45,
+          "teachers": 9,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631017",
@@ -608,10 +1001,15 @@
       "maleStudents": 25,
       "femaleStudents": 11,
       "classCount": 6,
-      "totalTeachers": 9,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 7,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 0,
       "teachersOver5Years": 2,
@@ -621,15 +1019,34 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 6.4,
+      "studentTeacherRatio": 4.5,
       "averageClassSize": 7.5,
       "riskLevel": "medium",
-      "riskFactors": ["소규모 학교", "교감 공석"],
+      "riskFactors": [
+        "소규모 학교",
+        "교감 공석"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 52, "teachers": 9, "classes": 6 },
-        { "year": 2024, "students": 48, "teachers": 9, "classes": 6 },
-        { "year": 2025, "students": 45, "teachers": 9, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 52,
+          "teachers": 9,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 48,
+          "teachers": 9,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 45,
+          "teachers": 9,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631018",
@@ -644,10 +1061,15 @@
       "maleStudents": 22,
       "femaleStudents": 20,
       "classCount": 6,
-      "totalTeachers": 9,
+      "totalTeachers": 7,
       "teachersExcludingAdmin": 7,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
@@ -660,12 +1082,31 @@
       "studentTeacherRatio": 6,
       "averageClassSize": 7,
       "riskLevel": "medium",
-      "riskFactors": ["소규모 학교", "교감 공석"],
+      "riskFactors": [
+        "소규모 학교",
+        "교감 공석"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 50, "teachers": 9, "classes": 6 },
-        { "year": 2024, "students": 46, "teachers": 9, "classes": 6 },
-        { "year": 2025, "students": 42, "teachers": 9, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 50,
+          "teachers": 9,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 46,
+          "teachers": 9,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 42,
+          "teachers": 9,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631019",
@@ -680,10 +1121,15 @@
       "maleStudents": 18,
       "femaleStudents": 13,
       "classCount": 6,
-      "totalTeachers": 10,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 7,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
@@ -693,15 +1139,34 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 6,
+      "studentTeacherRatio": 3.9,
       "averageClassSize": 7,
       "riskLevel": "medium",
-      "riskFactors": ["소규모 학교", "교감 공석"],
+      "riskFactors": [
+        "소규모 학교",
+        "교감 공석"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 50, "teachers": 9, "classes": 6 },
-        { "year": 2024, "students": 46, "teachers": 9, "classes": 6 },
-        { "year": 2025, "students": 42, "teachers": 9, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 50,
+          "teachers": 9,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 46,
+          "teachers": 9,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 42,
+          "teachers": 9,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631020",
@@ -716,10 +1181,15 @@
       "maleStudents": 5,
       "femaleStudents": 3,
       "classCount": 5,
-      "totalTeachers": 8,
+      "totalTeachers": 5,
       "teachersExcludingAdmin": 6,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
@@ -729,14 +1199,35 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 1.3,
-      "averageClassSize": 2.0,
+      "studentTeacherRatio": 1.6,
+      "averageClassSize": 2,
       "riskLevel": "critical",
-      "riskFactors": ["초소규모 학교", "교감 공석", "결원 1명", "학생수 10명 이하", "폐교 위험"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석",
+        "결원 1명",
+        "학생수 10명 이하",
+        "폐교 위험"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 15, "teachers": 8, "classes": 5 },
-        { "year": 2024, "students": 12, "teachers": 8, "classes": 5 },
-        { "year": 2025, "students": 8, "teachers": 8, "classes": 4 }
+        {
+          "year": 2023,
+          "students": 15,
+          "teachers": 8,
+          "classes": 5
+        },
+        {
+          "year": 2024,
+          "students": 12,
+          "teachers": 8,
+          "classes": 5
+        },
+        {
+          "year": 2025,
+          "students": 8,
+          "teachers": 8,
+          "classes": 4
+        }
       ],
       "dataSource": "학교알리미 2025"
     },
@@ -753,10 +1244,15 @@
       "maleStudents": 20,
       "femaleStudents": 18,
       "classCount": 5,
-      "totalTeachers": 9,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 7,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 2,
@@ -766,15 +1262,34 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 5.4,
+      "studentTeacherRatio": 4.8,
       "averageClassSize": 6.3,
       "riskLevel": "high",
-      "riskFactors": ["초소규모 학교", "교감 공석"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 45, "teachers": 9, "classes": 6 },
-        { "year": 2024, "students": 42, "teachers": 9, "classes": 6 },
-        { "year": 2025, "students": 38, "teachers": 9, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 45,
+          "teachers": 9,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 42,
+          "teachers": 9,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 38,
+          "teachers": 9,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631022",
@@ -789,10 +1304,15 @@
       "maleStudents": 8,
       "femaleStudents": 4,
       "classCount": 6,
-      "totalTeachers": 9,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 7,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 0,
       "teachersOver5Years": 2,
@@ -802,14 +1322,34 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 5.4,
+      "studentTeacherRatio": 1.5,
       "averageClassSize": 6.3,
       "riskLevel": "critical",
-      "riskFactors": ["초소규모 학교", "교감 공석", "학생수 20명 이하", "폐교 위험"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석",
+        "학생수 20명 이하",
+        "폐교 위험"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 20, "teachers": 11, "classes": 6 },
-        { "year": 2024, "students": 15, "teachers": 11, "classes": 6 },
-        { "year": 2025, "students": 12, "teachers": 11, "classes": 6 }
+        {
+          "year": 2023,
+          "students": 20,
+          "teachers": 11,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 15,
+          "teachers": 11,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 12,
+          "teachers": 11,
+          "classes": 6
+        }
       ],
       "dataSource": "학교알리미 2025"
     },
@@ -826,10 +1366,15 @@
       "maleStudents": 5,
       "femaleStudents": 14,
       "classCount": 6,
-      "totalTeachers": 11,
+      "totalTeachers": 7,
       "teachersExcludingAdmin": 9,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 0,
       "teachersOver5Years": 1,
@@ -839,14 +1384,34 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 2.1,
+      "studentTeacherRatio": 2.7,
       "averageClassSize": 3.2,
       "riskLevel": "critical",
-      "riskFactors": ["초소규모 학교", "교감 공석", "학생수 20명 이하", "폐교 위험"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석",
+        "학생수 20명 이하",
+        "폐교 위험"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 25, "teachers": 11, "classes": 6 },
-        { "year": 2024, "students": 22, "teachers": 11, "classes": 6 },
-        { "year": 2025, "students": 19, "teachers": 11, "classes": 6 }
+        {
+          "year": 2023,
+          "students": 25,
+          "teachers": 11,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 22,
+          "teachers": 11,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 19,
+          "teachers": 11,
+          "classes": 6
+        }
       ],
       "dataSource": "학교알리미 2025"
     },
@@ -863,10 +1428,15 @@
       "maleStudents": 18,
       "femaleStudents": 17,
       "classCount": 6,
-      "totalTeachers": 8,
+      "totalTeachers": 9,
       "teachersExcludingAdmin": 6,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 0,
       "teachersOver5Years": 1,
@@ -876,15 +1446,34 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 5.8,
+      "studentTeacherRatio": 3.9,
       "averageClassSize": 5.8,
       "riskLevel": "high",
-      "riskFactors": ["초소규모 학교", "교감 공석"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 42, "teachers": 8, "classes": 6 },
-        { "year": 2024, "students": 38, "teachers": 8, "classes": 6 },
-        { "year": 2025, "students": 35, "teachers": 8, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 42,
+          "teachers": 8,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 38,
+          "teachers": 8,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 35,
+          "teachers": 8,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631025",
@@ -899,10 +1488,15 @@
       "maleStudents": 15,
       "femaleStudents": 14,
       "classCount": 6,
-      "totalTeachers": 12,
+      "totalTeachers": 8,
       "teachersExcludingAdmin": 10,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 0,
       "teachersOver5Years": 2,
@@ -912,14 +1506,33 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 2.9,
+      "studentTeacherRatio": 3.6,
       "averageClassSize": 4.8,
       "riskLevel": "high",
-      "riskFactors": ["초소규모 학교", "교감 공석", "학생수 30명 이하"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석",
+        "학생수 30명 이하"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 35, "teachers": 12, "classes": 6 },
-        { "year": 2024, "students": 32, "teachers": 12, "classes": 6 },
-        { "year": 2025, "students": 29, "teachers": 12, "classes": 6 }
+        {
+          "year": 2023,
+          "students": 35,
+          "teachers": 12,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 32,
+          "teachers": 12,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 29,
+          "teachers": 12,
+          "classes": 6
+        }
       ],
       "dataSource": "학교알리미 2025"
     },
@@ -938,8 +1551,13 @@
       "classCount": 6,
       "totalTeachers": 8,
       "teachersExcludingAdmin": 6,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 0,
       "teachersOver5Years": 2,
@@ -949,15 +1567,34 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 5,
+      "studentTeacherRatio": 3.8,
       "averageClassSize": 5,
       "riskLevel": "high",
-      "riskFactors": ["초소규모 학교", "교감 공석"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 38, "teachers": 8, "classes": 6 },
-        { "year": 2024, "students": 34, "teachers": 8, "classes": 6 },
-        { "year": 2025, "students": 30, "teachers": 8, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 38,
+          "teachers": 8,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 34,
+          "teachers": 8,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 30,
+          "teachers": 8,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631027",
@@ -973,10 +1610,15 @@
       "maleStudents": 15,
       "femaleStudents": 13,
       "classCount": 6,
-      "totalTeachers": 8,
+      "totalTeachers": 7,
       "teachersExcludingAdmin": 6,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 1,
@@ -986,15 +1628,35 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 4.7,
+      "studentTeacherRatio": 4,
       "averageClassSize": 4.7,
       "riskLevel": "high",
-      "riskFactors": ["초소규모 학교", "교감 공석", "결원 1명"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석",
+        "결원 1명"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 35, "teachers": 8, "classes": 6 },
-        { "year": 2024, "students": 32, "teachers": 8, "classes": 6 },
-        { "year": 2025, "students": 28, "teachers": 8, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 35,
+          "teachers": 8,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 32,
+          "teachers": 8,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 28,
+          "teachers": 8,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631028",
@@ -1011,8 +1673,13 @@
       "classCount": 6,
       "totalTeachers": 7,
       "teachersExcludingAdmin": 5,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 1,
@@ -1022,15 +1689,36 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 5,
+      "studentTeacherRatio": 3.6,
       "averageClassSize": 4.2,
       "riskLevel": "high",
-      "riskFactors": ["초소규모 학교", "교감 공석", "결원 1명", "폐교 위험"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석",
+        "결원 1명",
+        "폐교 위험"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 32, "teachers": 7, "classes": 6 },
-        { "year": 2024, "students": 28, "teachers": 7, "classes": 6 },
-        { "year": 2025, "students": 25, "teachers": 7, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 32,
+          "teachers": 7,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 28,
+          "teachers": 7,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 25,
+          "teachers": 7,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631029",
@@ -1045,10 +1733,15 @@
       "maleStudents": 13,
       "femaleStudents": 12,
       "classCount": 5,
-      "totalTeachers": 7,
+      "totalTeachers": 5,
       "teachersExcludingAdmin": 5,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 1,
@@ -1061,13 +1754,34 @@
       "studentTeacherRatio": 5,
       "averageClassSize": 4.2,
       "riskLevel": "high",
-      "riskFactors": ["초소규모 학교", "교감 공석", "결원 1명", "폐교 위험"],
-      "yearlyData": [
-        { "year": 2023, "students": 32, "teachers": 7, "classes": 6 },
-        { "year": 2024, "students": 28, "teachers": 7, "classes": 6 },
-        { "year": 2025, "students": 25, "teachers": 7, "classes": 6 }
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석",
+        "결원 1명",
+        "폐교 위험"
       ],
-      "notes": "통학차량(택시) 임차 운영 중"
+      "yearlyData": [
+        {
+          "year": 2023,
+          "students": 32,
+          "teachers": 7,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 28,
+          "teachers": 7,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 25,
+          "teachers": 7,
+          "classes": 6
+        }
+      ],
+      "notes": "통학차량(택시) 임차 운영 중",
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631030",
@@ -1082,10 +1796,15 @@
       "maleStudents": 8,
       "femaleStudents": 4,
       "classCount": 6,
-      "totalTeachers": 10,
+      "totalTeachers": 5,
       "teachersExcludingAdmin": 8,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 1,
@@ -1095,14 +1814,34 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 1.5,
-      "averageClassSize": 2.0,
+      "studentTeacherRatio": 2.4,
+      "averageClassSize": 2,
       "riskLevel": "critical",
-      "riskFactors": ["초소규모 학교", "교감 공석", "학생수 20명 이하", "폐교 위험"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석",
+        "학생수 20명 이하",
+        "폐교 위험"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 18, "teachers": 10, "classes": 6 },
-        { "year": 2024, "students": 15, "teachers": 10, "classes": 6 },
-        { "year": 2025, "students": 12, "teachers": 10, "classes": 6 }
+        {
+          "year": 2023,
+          "students": 18,
+          "teachers": 10,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 15,
+          "teachers": 10,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 12,
+          "teachers": 10,
+          "classes": 6
+        }
       ],
       "dataSource": "학교알리미 2025"
     },
@@ -1121,8 +1860,13 @@
       "classCount": 6,
       "totalTeachers": 7,
       "teachersExcludingAdmin": 5,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 0,
       "teachersOver5Years": 1,
@@ -1132,15 +1876,35 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 4,
+      "studentTeacherRatio": 2.9,
       "averageClassSize": 3.3,
       "riskLevel": "high",
-      "riskFactors": ["초소규모 학교", "교감 공석", "폐교 위험"],
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석",
+        "폐교 위험"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 26, "teachers": 7, "classes": 6 },
-        { "year": 2024, "students": 23, "teachers": 7, "classes": 6 },
-        { "year": 2025, "students": 20, "teachers": 7, "classes": 6 }
-      ]
+        {
+          "year": 2023,
+          "students": 26,
+          "teachers": 7,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 23,
+          "teachers": 7,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 20,
+          "teachers": 7,
+          "classes": 6
+        }
+      ],
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631032",
@@ -1157,8 +1921,13 @@
       "classCount": 5,
       "totalTeachers": 7,
       "teachersExcludingAdmin": 5,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 2
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 1,
       "teachersOver5Years": 1,
@@ -1168,16 +1937,36 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 3.6,
+      "studentTeacherRatio": 2.6,
       "averageClassSize": 3,
       "riskLevel": "high",
-      "riskFactors": ["초소규모 학교", "교감 공석", "폐교 위험"],
-      "yearlyData": [
-        { "year": 2023, "students": 24, "teachers": 7, "classes": 6 },
-        { "year": 2024, "students": 21, "teachers": 7, "classes": 6 },
-        { "year": 2025, "students": 18, "teachers": 7, "classes": 6 }
+      "riskFactors": [
+        "초소규모 학교",
+        "교감 공석",
+        "폐교 위험"
       ],
-      "notes": "1908년 개교, 김제시 최고(最古) 학교"
+      "yearlyData": [
+        {
+          "year": 2023,
+          "students": 24,
+          "teachers": 7,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 21,
+          "teachers": 7,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 18,
+          "teachers": 7,
+          "classes": 6
+        }
+      ],
+      "notes": "1908년 개교, 김제시 최고(最古) 학교",
+      "dataSource": "학교알리미 2025"
     },
     {
       "id": "P10-7631033",
@@ -1192,10 +1981,15 @@
       "maleStudents": 26,
       "femaleStudents": 30,
       "classCount": 6,
-      "totalTeachers": 12,
+      "totalTeachers": 9,
       "teachersExcludingAdmin": 4,
-      "principal": { "exists": true, "yearsAtSchool": 1 },
-      "vicePrincipal": { "exists": false },
+      "principal": {
+        "exists": true,
+        "yearsAtSchool": 1
+      },
+      "vicePrincipal": {
+        "exists": false
+      },
       "estimatedTransferOut": 1,
       "teachersNearRetirement": 0,
       "teachersOver5Years": 1,
@@ -1205,54 +1999,33 @@
       "specialPrograms": [],
       "hasGym": false,
       "hasPool": false,
-      "studentTeacherRatio": 3.8,
+      "studentTeacherRatio": 6.2,
       "averageClassSize": 2.5,
       "riskLevel": "medium",
-      "riskFactors": ["소규모 학교"],
+      "riskFactors": [
+        "소규모 학교"
+      ],
       "yearlyData": [
-        { "year": 2023, "students": 62, "teachers": 12, "classes": 6 },
-        { "year": 2024, "students": 58, "teachers": 12, "classes": 6 },
-        { "year": 2025, "students": 56, "teachers": 12, "classes": 6 }
+        {
+          "year": 2023,
+          "students": 62,
+          "teachers": 12,
+          "classes": 6
+        },
+        {
+          "year": 2024,
+          "students": 58,
+          "teachers": 12,
+          "classes": 6
+        },
+        {
+          "year": 2025,
+          "students": 56,
+          "teachers": 12,
+          "classes": 6
+        }
       ],
       "dataSource": "학교알리미 2025"
-    },
-    {
-      "id": "P10-7631034",
-      "name": "심창초등학교",
-      "address": "전북특별자치도 김제시 금산면 심창로 456",
-      "phone": "063-540-8200",
-      "foundedDate": "1952-04-01",
-      "latitude": 35.7412,
-      "longitude": 127.0134,
-      "status": "closing",
-      "closingDate": "2025-03-01",
-      "totalStudents": 7,
-      "maleStudents": 4,
-      "femaleStudents": 3,
-      "classCount": 4,
-      "totalTeachers": 6,
-      "teachersExcludingAdmin": 4,
-      "principal": { "exists": true, "yearsAtSchool": 2 },
-      "vicePrincipal": { "exists": false },
-      "estimatedTransferOut": 4,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 1,
-      "vacancies": 0,
-      "schoolType": "rural",
-      "isSmallSchool": true,
-      "specialPrograms": [],
-      "hasGym": false,
-      "hasPool": false,
-      "studentTeacherRatio": 1.8,
-      "averageClassSize": 1.8,
-      "riskLevel": "critical",
-      "riskFactors": ["폐교 예정", "학생 10명 이하", "교감 공석"],
-      "yearlyData": [
-        { "year": 2023, "students": 15, "teachers": 6, "classes": 5 },
-        { "year": 2024, "students": 10, "teachers": 6, "classes": 4 },
-        { "year": 2025, "students": 7, "teachers": 6, "classes": 4 }
-      ],
-      "notes": "2025년 3월 폐교 예정 - 학생수 급감으로 인한 통폐합"
     }
   ]
 }
