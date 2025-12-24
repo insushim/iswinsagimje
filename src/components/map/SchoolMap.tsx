@@ -435,12 +435,13 @@ export default function SchoolMap() {
     [map, isMapLoaded]
   );
 
-  // 선택된 학교로 이동
-  useEffect(() => {
-    if (selectedSchool && map && isMapLoaded) {
-      panTo(selectedSchool.latitude, selectedSchool.longitude, 4);
-    }
-  }, [selectedSchool, map, isMapLoaded, panTo]);
+  // 선택된 학교로 이동 - 지도에서 클릭 시 이동하지 않음 (팝업만 표시)
+  // 목록에서 클릭할 때만 이동하도록 하려면 별도 상태 관리 필요
+  // useEffect(() => {
+  //   if (selectedSchool && map && isMapLoaded) {
+  //     panTo(selectedSchool.latitude, selectedSchool.longitude, 4);
+  //   }
+  // }, [selectedSchool, map, isMapLoaded, panTo]);
 
   // API 키가 없을 때 폴백 UI
   if (!process.env.NEXT_PUBLIC_KAKAO_MAP_API_KEY) {
