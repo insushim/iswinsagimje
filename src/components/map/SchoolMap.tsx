@@ -149,16 +149,14 @@ export default function SchoolMap() {
 
     function initializeMap() {
       if (mapRef.current && !map) {
-        // 김제시 중심 좌표: 위도 35.8, 경도 126.88
-        // 이 좌표는 전라북도 김제시의 중심입니다
-        const gimjeCenterLat = 35.8;
-        const gimjeCenterLng = 126.88;
-
-        console.log('지도 초기화: 김제시 중심', gimjeCenterLat, gimjeCenterLng);
+        // 김제시 전체 학교가 보이는 고정 뷰
+        // 스크린샷 기준 최적화된 중심점과 줌 레벨
+        const gimjeCenterLat = 35.815;
+        const gimjeCenterLng = 126.9;
 
         const options = {
           center: new window.kakao.maps.LatLng(gimjeCenterLat, gimjeCenterLng),
-          level: 9, // 김제시 전체가 보이는 줌 레벨
+          level: 10, // 김제시 전체가 보이는 줌 레벨 (고정)
         };
         const newMap = new window.kakao.maps.Map(mapRef.current, options);
 
@@ -191,17 +189,11 @@ export default function SchoolMap() {
 
     const newOverlays: any[] = [];
 
-    // 모든 학교를 포함하는 범위 계산
-    const bounds = new window.kakao.maps.LatLngBounds();
-
     filteredSchools.forEach((school) => {
       const position = new window.kakao.maps.LatLng(
         school.latitude,
         school.longitude
       );
-
-      // 범위에 학교 위치 추가
-      bounds.extend(position);
 
       const markerColor = getMarkerColor(school);
       const shortName = getShortName(school.name);
@@ -273,10 +265,7 @@ export default function SchoolMap() {
       newOverlays.push(customOverlay);
     });
 
-    // 모든 학교가 보이도록 지도 범위 조정
-    if (filteredSchools.length > 0) {
-      map.setBounds(bounds);
-    }
+    // 초기 뷰 고정 - setBounds 제거하여 새로고침 시 항상 같은 뷰 유지
 
     setOverlays(newOverlays);
   }, [map, filteredSchools, isMapLoaded]);
@@ -519,13 +508,13 @@ export default function SchoolMap() {
     <div className="relative w-full h-full">
       <div ref={mapRef} className="w-full h-full" />
 
-      {/* 지도 컨트롤 - 리셋 버튼 누르면 김제시 전체 보기 */}
+      {/* 지도 컨트롤 - 리셋 버튼 누르면 초기 뷰로 복귀 */}
       <MapControls
         onReset={() => {
           if (map && window.kakao) {
-            // 김제시 중심으로 이동 (위도 35.8, 경도 126.88)
-            map.setCenter(new window.kakao.maps.LatLng(35.8, 126.88));
-            map.setLevel(9);
+            // 초기 뷰와 동일한 설정
+            map.setCenter(new window.kakao.maps.LatLng(35.815, 126.9));
+            map.setLevel(10);
           }
         }}
         onZoomIn={() => map?.setLevel(map.getLevel() - 1)}
