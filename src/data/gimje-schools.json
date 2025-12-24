@@ -448,67 +448,6 @@
       "tier": 4
     },
     {
-      "id": "P10-7631008",
-      "name": "비룡초등학교",
-      "address": "전북특별자치도 김제시 용지면 금백로 845-7",
-      "phone": "063-540-8000",
-      "foundedDate": "1963-05-10",
-      "latitude": 35.84412437,
-      "longitude": 126.9898157,
-      "status": "operating",
-      "totalStudents": 9,
-      "maleStudents": 62,
-      "femaleStudents": 58,
-      "classCount": 5,
-      "totalTeachers": 7,
-      "teachersExcludingAdmin": 12,
-      "principal": {
-        "exists": true,
-        "yearsAtSchool": 2
-      },
-      "vicePrincipal": {
-        "exists": true,
-        "yearsAtSchool": 1
-      },
-      "estimatedTransferOut": 2,
-      "teachersNearRetirement": 1,
-      "teachersOver5Years": 3,
-      "vacancies": 0,
-      "schoolType": "urban",
-      "isSmallSchool": false,
-      "specialPrograms": [
-        "늘봄학교"
-      ],
-      "hasGym": true,
-      "hasPool": false,
-      "studentTeacherRatio": 1.3,
-      "averageClassSize": 1.8,
-      "riskLevel": "low",
-      "riskFactors": [],
-      "yearlyData": [
-        {
-          "year": 2023,
-          "students": 135,
-          "teachers": 14,
-          "classes": 7
-        },
-        {
-          "year": 2024,
-          "students": 128,
-          "teachers": 14,
-          "classes": 7
-        },
-        {
-          "year": 2025,
-          "students": 120,
-          "teachers": 14,
-          "classes": 7
-        }
-      ],
-      "dataSource": "학교알리미 2025",
-      "tier": 4
-    },
-    {
       "id": "P10-7631009",
       "name": "종정초등학교",
       "address": "전북특별자치도 김제시 백산면 종정1길 143",
