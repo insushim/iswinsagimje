@@ -93,7 +93,6 @@ export default function SchoolMap() {
   const [overlays, setOverlays] = useState<any[]>([]);
   const [activeOverlay, setActiveOverlay] = useState<any>(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
-  const initialBoundsSet = useRef(false);
 
   const { filteredSchools, selectSchool, selectedSchool } = useSchoolStore();
 
@@ -181,36 +180,6 @@ export default function SchoolMap() {
     }
   }, [map]);
 
-  // 초기 로드 시 김제 지역으로 이동 (학교 좌표 평균 기반)
-  useEffect(() => {
-    if (!map || !isMapLoaded || filteredSchools.length === 0) return;
-    if (initialBoundsSet.current) return;
-
-    // 모든 학교 좌표의 평균으로 중심점 계산
-    let sumLat = 0, sumLng = 0;
-    let minLat = 999, maxLat = -999, minLng = 999, maxLng = -999;
-
-    filteredSchools.forEach((school) => {
-      sumLat += school.latitude;
-      sumLng += school.longitude;
-      minLat = Math.min(minLat, school.latitude);
-      maxLat = Math.max(maxLat, school.latitude);
-      minLng = Math.min(minLng, school.longitude);
-      maxLng = Math.max(maxLng, school.longitude);
-    });
-
-    const centerLat = sumLat / filteredSchools.length;
-    const centerLng = sumLng / filteredSchools.length;
-
-    console.log('김제 중심점:', centerLat, centerLng);
-    console.log('범위:', minLat, '-', maxLat, ',', minLng, '-', maxLng);
-
-    // 중심점으로 이동하고 적절한 줌 레벨 설정
-    map.setCenter(new window.kakao.maps.LatLng(centerLat, centerLng));
-    map.setLevel(10);
-
-    initialBoundsSet.current = true;
-  }, [map, isMapLoaded, filteredSchools]);
 
   // 마커 생성 및 업데이트
   useEffect(() => {
@@ -220,12 +189,14 @@ export default function SchoolMap() {
     overlays.forEach((overlay) => overlay.setMap(null));
 
     const newOverlays: any[] = [];
+    const bounds = new window.kakao.maps.LatLngBounds();
 
     filteredSchools.forEach((school) => {
       const position = new window.kakao.maps.LatLng(
         school.latitude,
         school.longitude
       );
+      bounds.extend(position);
 
       const markerColor = getMarkerColor(school);
       const shortName = getShortName(school.name);
@@ -296,6 +267,11 @@ export default function SchoolMap() {
       customOverlay.setMap(map);
       newOverlays.push(customOverlay);
     });
+
+    // 필터링된 학교들이 모두 보이도록 지도 범위 조정
+    if (filteredSchools.length > 0) {
+      map.setBounds(bounds);
+    }
 
     setOverlays(newOverlays);
   }, [map, filteredSchools, isMapLoaded]);
