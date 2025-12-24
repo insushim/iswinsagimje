@@ -181,18 +181,34 @@ export default function SchoolMap() {
     }
   }, [map]);
 
-  // 초기 로드 시 김제 지역으로 이동 (학교 데이터 기반)
+  // 초기 로드 시 김제 지역으로 이동 (학교 좌표 평균 기반)
   useEffect(() => {
     if (!map || !isMapLoaded || filteredSchools.length === 0) return;
     if (initialBoundsSet.current) return;
 
-    // 모든 학교 좌표로 bounds 계산
-    const bounds = new window.kakao.maps.LatLngBounds();
+    // 모든 학교 좌표의 평균으로 중심점 계산
+    let sumLat = 0, sumLng = 0;
+    let minLat = 999, maxLat = -999, minLng = 999, maxLng = -999;
+
     filteredSchools.forEach((school) => {
-      bounds.extend(new window.kakao.maps.LatLng(school.latitude, school.longitude));
+      sumLat += school.latitude;
+      sumLng += school.longitude;
+      minLat = Math.min(minLat, school.latitude);
+      maxLat = Math.max(maxLat, school.latitude);
+      minLng = Math.min(minLng, school.longitude);
+      maxLng = Math.max(maxLng, school.longitude);
     });
 
-    map.setBounds(bounds);
+    const centerLat = sumLat / filteredSchools.length;
+    const centerLng = sumLng / filteredSchools.length;
+
+    console.log('김제 중심점:', centerLat, centerLng);
+    console.log('범위:', minLat, '-', maxLat, ',', minLng, '-', maxLng);
+
+    // 중심점으로 이동하고 적절한 줌 레벨 설정
+    map.setCenter(new window.kakao.maps.LatLng(centerLat, centerLng));
+    map.setLevel(10);
+
     initialBoundsSet.current = true;
   }, [map, isMapLoaded, filteredSchools]);
 
