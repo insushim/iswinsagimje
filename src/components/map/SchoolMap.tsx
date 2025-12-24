@@ -12,8 +12,14 @@ declare global {
   }
 }
 
-// 김제시 중심 좌표 (모든 학교가 보이도록)
-const GIMJE_CENTER = { lat: 35.82, lng: 126.88 };
+// 김제시 중심 좌표 (모든 학교가 보이도록 조정)
+const GIMJE_CENTER = { lat: 35.815, lng: 126.88 };
+const DEFAULT_ZOOM = 9; // 김제시 전체가 보이는 줌 레벨
+
+// 학교 이름에서 "초등학교" 제거
+const getShortName = (name: string): string => {
+  return name.replace('초등학교', '초').replace('김제', '');
+};
 
 const getMarkerColor = (school: SchoolInfo): string => {
   if (school.status === 'closing') return '#EF4444';
@@ -119,7 +125,7 @@ export default function SchoolMap() {
             GIMJE_CENTER.lat,
             GIMJE_CENTER.lng
           ),
-          level: 10,
+          level: DEFAULT_ZOOM,
         };
         const newMap = new window.kakao.maps.Map(mapRef.current, options);
         setMap(newMap);
@@ -156,47 +162,69 @@ export default function SchoolMap() {
       );
 
       const markerColor = getMarkerColor(school);
-      const markerSize = school.isSmallSchool ? 32 : 40;
+      const shortName = getShortName(school.name);
 
       const markerContent = document.createElement('div');
       markerContent.innerHTML = `
         <div style="
-          width: ${markerSize}px;
-          height: ${markerSize}px;
-          background: ${markerColor};
-          border-radius: 50%;
-          border: 3px solid white;
-          box-shadow: 0 2px 6px rgba(0,0,0,0.3);
           display: flex;
+          flex-direction: column;
           align-items: center;
-          justify-content: center;
-          color: white;
-          font-weight: bold;
-          font-size: 11px;
           cursor: pointer;
-          transition: transform 0.2s;
-        " class="school-marker" data-id="${school.id}">
-          ${school.totalStudents}
+        " class="school-marker-container" data-id="${school.id}">
+          <div style="
+            width: 28px;
+            height: 28px;
+            background: ${markerColor};
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 10px;
+            transition: transform 0.2s;
+          " class="school-marker">
+            ${school.totalStudents}
+          </div>
+          <div style="
+            background: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            color: #374151;
+            white-space: nowrap;
+            margin-top: 2px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+          " class="school-label">
+            ${shortName}
+          </div>
         </div>
       `;
 
-      markerContent.querySelector('.school-marker')?.addEventListener('click', () => {
+      const container = markerContent.querySelector('.school-marker-container');
+      container?.addEventListener('click', () => {
         selectSchool(school);
         showInfoWindow(school, position);
       });
 
-      markerContent.querySelector('.school-marker')?.addEventListener('mouseenter', (e) => {
-        (e.target as HTMLElement).style.transform = 'scale(1.1)';
+      container?.addEventListener('mouseenter', () => {
+        const marker = container.querySelector('.school-marker') as HTMLElement;
+        if (marker) marker.style.transform = 'scale(1.2)';
       });
 
-      markerContent.querySelector('.school-marker')?.addEventListener('mouseleave', (e) => {
-        (e.target as HTMLElement).style.transform = 'scale(1)';
+      container?.addEventListener('mouseleave', () => {
+        const marker = container.querySelector('.school-marker') as HTMLElement;
+        if (marker) marker.style.transform = 'scale(1)';
       });
 
       const customOverlay = new window.kakao.maps.CustomOverlay({
         position: position,
         content: markerContent,
-        yAnchor: 0.5,
+        yAnchor: 1,
       });
 
       customOverlay.setMap(map);
@@ -420,7 +448,7 @@ export default function SchoolMap() {
 
       {/* 지도 컨트롤 */}
       <MapControls
-        onReset={() => panTo(GIMJE_CENTER.lat, GIMJE_CENTER.lng, 10)}
+        onReset={() => panTo(GIMJE_CENTER.lat, GIMJE_CENTER.lng, DEFAULT_ZOOM)}
         onZoomIn={() => map?.setLevel(map.getLevel() - 1)}
         onZoomOut={() => map?.setLevel(map.getLevel() + 1)}
       />
