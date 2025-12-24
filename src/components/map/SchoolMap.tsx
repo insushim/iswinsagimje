@@ -125,22 +125,18 @@ export default function SchoolMap() {
 
     function initializeMap() {
       if (mapRef.current && !map) {
-        // 김제시 중심으로 초기화
+        // 김제시 중심 좌표: 위도 35.8, 경도 126.88
+        // 이 좌표는 전라북도 김제시의 중심입니다
+        const gimjeCenterLat = 35.8;
+        const gimjeCenterLng = 126.88;
+
+        console.log('지도 초기화: 김제시 중심', gimjeCenterLat, gimjeCenterLng);
+
         const options = {
-          center: new window.kakao.maps.LatLng(
-            GIMJE_CENTER.lat,
-            GIMJE_CENTER.lng
-          ),
-          level: 8, // 초기 줌 레벨
+          center: new window.kakao.maps.LatLng(gimjeCenterLat, gimjeCenterLng),
+          level: 9, // 김제시 전체가 보이는 줌 레벨
         };
         const newMap = new window.kakao.maps.Map(mapRef.current, options);
-
-        // 김제시 전체 범위가 보이도록 설정
-        const bounds = new window.kakao.maps.LatLngBounds(
-          new window.kakao.maps.LatLng(GIMJE_BOUNDS.sw.lat, GIMJE_BOUNDS.sw.lng),
-          new window.kakao.maps.LatLng(GIMJE_BOUNDS.ne.lat, GIMJE_BOUNDS.ne.lng)
-        );
-        newMap.setBounds(bounds);
 
         setMap(newMap);
         setIsMapLoaded(true);
@@ -156,6 +152,8 @@ export default function SchoolMap() {
           mapTypeControl,
           window.kakao.maps.ControlPosition.TOPRIGHT
         );
+
+        console.log('지도 초기화 완료, 현재 중심:', newMap.getCenter().toString());
       }
     }
   }, [map]);
@@ -464,11 +462,9 @@ export default function SchoolMap() {
       <MapControls
         onReset={() => {
           if (map && window.kakao) {
-            const bounds = new window.kakao.maps.LatLngBounds(
-              new window.kakao.maps.LatLng(GIMJE_BOUNDS.sw.lat, GIMJE_BOUNDS.sw.lng),
-              new window.kakao.maps.LatLng(GIMJE_BOUNDS.ne.lat, GIMJE_BOUNDS.ne.lng)
-            );
-            map.setBounds(bounds);
+            // 김제시 중심으로 이동 (위도 35.8, 경도 126.88)
+            map.setCenter(new window.kakao.maps.LatLng(35.8, 126.88));
+            map.setLevel(9);
           }
         }}
         onZoomIn={() => map?.setLevel(map.getLevel() - 1)}
@@ -481,7 +477,7 @@ export default function SchoolMap() {
       {/* 학교 수 표시 */}
       <div className="absolute top-4 left-4 bg-white rounded-lg shadow-lg px-4 py-2">
         <span className="text-sm">
-          표시 중: <strong>{filteredSchools.length}</strong>개 학교
+          김제시 초등학교: <strong>{filteredSchools.length}</strong>개 (v2)
         </span>
       </div>
     </div>
