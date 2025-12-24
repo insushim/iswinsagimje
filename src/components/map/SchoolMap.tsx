@@ -93,6 +93,7 @@ export default function SchoolMap() {
   const [overlays, setOverlays] = useState<any[]>([]);
   const [activeOverlay, setActiveOverlay] = useState<any>(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
+  const initialBoundsSet = useRef(false);
 
   const { filteredSchools, selectSchool, selectedSchool } = useSchoolStore();
 
@@ -188,12 +189,14 @@ export default function SchoolMap() {
     overlays.forEach((overlay) => overlay.setMap(null));
 
     const newOverlays: any[] = [];
+    const bounds = new window.kakao.maps.LatLngBounds();
 
     filteredSchools.forEach((school) => {
       const position = new window.kakao.maps.LatLng(
         school.latitude,
         school.longitude
       );
+      bounds.extend(position);
 
       const markerColor = getMarkerColor(school);
       const shortName = getShortName(school.name);
@@ -265,7 +268,11 @@ export default function SchoolMap() {
       newOverlays.push(customOverlay);
     });
 
-    // 초기 뷰 고정 - setBounds 제거하여 새로고침 시 항상 같은 뷰 유지
+    // 첫 로드 시에만 모든 학교가 보이도록 범위 조정
+    if (!initialBoundsSet.current && filteredSchools.length > 0) {
+      map.setBounds(bounds);
+      initialBoundsSet.current = true;
+    }
 
     setOverlays(newOverlays);
   }, [map, filteredSchools, isMapLoaded]);
