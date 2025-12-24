@@ -12,7 +12,8 @@ declare global {
   }
 }
 
-const GIMJE_CENTER = { lat: 35.8037, lng: 126.8793 };
+// 김제시 중심 좌표 (모든 학교가 보이도록)
+const GIMJE_CENTER = { lat: 35.82, lng: 126.88 };
 
 const getMarkerColor = (school: SchoolInfo): string => {
   if (school.status === 'closing') return '#EF4444';
@@ -118,7 +119,7 @@ export default function SchoolMap() {
             GIMJE_CENTER.lat,
             GIMJE_CENTER.lng
           ),
-          level: 9,
+          level: 10,
         };
         const newMap = new window.kakao.maps.Map(mapRef.current, options);
         setMap(newMap);
@@ -419,7 +420,7 @@ export default function SchoolMap() {
 
       {/* 지도 컨트롤 */}
       <MapControls
-        onReset={() => panTo(GIMJE_CENTER.lat, GIMJE_CENTER.lng, 8)}
+        onReset={() => panTo(GIMJE_CENTER.lat, GIMJE_CENTER.lng, 10)}
         onZoomIn={() => map?.setLevel(map.getLevel() - 1)}
         onZoomOut={() => map?.setLevel(map.getLevel() + 1)}
       />

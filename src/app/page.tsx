@@ -190,7 +190,7 @@ export default function Home() {
 
       {/* 푸터 */}
       <footer className="bg-white border-t px-4 py-2 text-xs text-gray-500 flex items-center justify-between">
-        <span>데이터 출처: NEIS, 학교알리미 | 마지막 업데이트: 2025-01-01</span>
+        <span>데이터 출처: NEIS, 학교알리미 | 마지막 업데이트: 2024-12-24</span>
         <span>전북특별자치도김제교육지원청</span>
       </footer>
     </div>
